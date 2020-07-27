@@ -1,4 +1,4 @@
-### Gaukas there.
+### Gaukas here.
 
 - Currently working on a few private projects.
 - Currently learning Golang and Rust.
