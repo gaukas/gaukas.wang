@@ -4,7 +4,7 @@
 - Currently learning Golang and Rust.
 - Ask me about any questions. Silly questions are welcomed since they are easier to answer.
 - How to reach me: E-mail, Telegram
-- Pronouns: Your majesty/Your majesty (joking)
+
 <!--
 **Gaukas/Gaukas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
