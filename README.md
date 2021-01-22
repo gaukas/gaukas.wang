@@ -1,7 +1,7 @@
 ### Gaukas here.
 
 - 🔭 Working on a few private projects, besides the pinned public repos.
-- 🤔 Currently struggling with learning Golang and Rust. I would love to hear out some advices about how may a developer familiar with C++/PHP/Python get familiar with Rustlang and Golang.
+- 🤔 Currently struggling with learning Golang. I would love to hear out some advices about how may a developer familiar with C++/PHP/Python get familiar with Rustlang and Golang.
 - 💬 You can ask me questions about Embedded Systems, Concurrent Programming, Computer Architecture, Assembly, or other generic programming questions.
 - 📫 Contact E-mail: gaukaswang@gmail.com; Telegram:[@GaukasWang](https://t.me/GaukasWang)
 - ⚡ On-going Challenge: 1 Commit Everyday
