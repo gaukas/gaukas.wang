@@ -5,7 +5,7 @@
 - 💬 I would like to discuss about Embedded Systems, Concurrent Programming, Computer Architecture, Assembly, or other generic programming questions.
 - 📫 Contact E-mail: gaukaswang@gmail.com; Telegram:[@GaukasWang](https://t.me/GaukasWang)
 - 👀 Interested in investigating any undocumented software/hardware systems. Currently working on a [game](https://github.com/Gaukas/VentureSeas_SaveEditor) and a [Security Camera](https://github.com/rfenouil/IP-Camera-Neye3C) 
-- ⚡ On-going Challenge: 1 Commit Everyday - *FAILED*
+- ⚡ On-going Challenge: 1 Commit Everyday <!-- - *FAILED* -->
 
 <!--
 **Gaukas/Gaukas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
