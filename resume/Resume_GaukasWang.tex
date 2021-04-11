@@ -1,0 +1,251 @@
+%-------------------------
+% Resume in Latex
+% Template Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+% \usepackage{draftwatermark}
+% \SetWatermarkLightness{ 0.95 }
+% \SetWatermarkText{Gaukas.Wang \\ \today}
+% \SetWatermarkScale{3}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\cfoot{
+  This copy is fetched from \href{https://gaukas.wang/CV/latest.pdf}{\textbf{gaukas.wang/CV/latest.pdf}} on \today
+}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+  \href{https://gaukas.wang}{\textbf{\Huge \scshape Yiyan ``Gaukas'' Wang}} \\ \vspace{1pt}
+    %\small Tel: 720-366-4156\footnote{Not for direct contact} $|$ 
+    \href{tel:720-366-4156}{\underline{720-366-4156}} $|$
+    % \href{mailto:yiwa9869@colorado.edu}{\underline{yiwa9869@colorado.edu}} $|$
+    \href{mailto:gaukaswang@gmail.com}{\underline{gaukaswang@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/gaukaswang/}{\underline{LinkedIn.com/in/gaukaswang/}} $|$
+    \href{https://github.com/Gaukas}{\underline{GitHub.com/Gaukas}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {BS in Electrical and Computer Engineering}{with honor: \textbf{\textit{Summa Cum Laude}}}
+      {University of Colorado Boulder}{Aug 2018 -- May 2021}
+  \resumeSubHeadingListEnd
+
+  \vspace{5pt}
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Engineer, Network Analyst, DevOps Engineer}{Aug 2017 -- Present}
+      {Tunnel.Work, Internet Censorship Circumvention Solution Provider}{Online/Remote}
+      \resumeItemListStart
+      \resumeItem{Building high-speed network tunneling solutions with C/C++.}
+      \resumeItem{Managing Linux server cluster and maintaining website based on Nginx, PHP and MySQL.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Embedded Software/Firmware DevOps Engineer}{Aug 2020 -- Present}
+      {EmergenTek.net/Sarus Inc, CU Start-ups}{Boulder, CO}
+      \resumeItemListStart
+        \resumeItem{Building Heavy Machinery Automation Solution with Embedded C on STM32, MicroPython on RP2040.}
+        \resumeItem{Conducting code review with fellow computer engineers and managing project Git repository.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Undergraduate Researcher}{Jan 2021 -- May 2021}
+      {Refraction Networking CU Boulder with Prof. Eric Wustrow}{Boulder, CO}
+      \resumeItemListStart
+        \resumeItem{Analyzing current WebRTC data channel and building a transport with minimal fingerprint with Golang.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Research Assistant}{Apr 2020 -- May 2021}
+      {Systems Lab CU Boulder, CU-NVM with Prof. Joseph Izraelevitz}{Boulder, CO}
+      \resumeItemListStart
+        \resumeItem{Conducting benchmarks on multiple distributed system software implementations.}
+        \resumeItem{Improving an RDMA-based distributed framework and providing important design feedbacks to supervisor(s).}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Teaching Assistant}{Jan 2020 -- May 2021}
+      {University of Colorado Boulder with Prof. Joseph Izraelevitz}{Boulder, CO}
+      \resumeItemListStart
+        \resumeItem{ECEN 1300 - C Programming for ECE: Instructing first-year programmers to start programming in C.}
+        \resumeItem{ECEN 4313/5033, CSCI 4830/7000 - Concurrent Programming: Instruct senior undergrads and grad students to start building concurrent programming projects in C++ with majorly pthreads.}
+      \resumeItemListEnd
+% % -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  \resumeSubHeadingListEnd
+
+  \vspace{5pt}
+%-----------PROJECTS-----------
+\section{Private Projects - public projects available on Github}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+        {\textbf{Embedded System Projects} $|$ \emph{Embedded C/C++, MicroPython}}{Jan 2020 -- May 2021}
+        \resumeItemListStart
+        \resumeItem{EFM32: (LE)UART, I$^2$C, Bluetooth (LE).}
+        \resumeItem{STM32: Feedback Control, I$^2$C, STM32CubeIDE, UART, Zigbee/Xbee.}
+        \resumeItem{RP2040: PID Control, I$^2$C, UART, Zigbee/Xbee.}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{PCB Design} $|$ \emph{Altium}}{Aug 2020 -- Oct 2020}
+        \resumeItemListStart
+          \resumeItem{Circuit Prototyping/Validating, Crosstalk Analysis, LTSpice, PCB Analysis, PCB Design.}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{Pipeline Architecture Design} $|$ \emph{Codasip}}{Jan 2020 -- May 2020}
+        \resumeItemListStart
+          \resumeItem{RISC-V: Cacheline optimization, Debugging/Validating w/ Assembly, ISA (Instruction Set Architecture).}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{Intel FPGA Project} $|$ \emph{Verilog}}{July 2019 -- Aug 2019}
+          \resumeItemListStart
+            \resumeItem{DE-10: State Machine, Verification/Simulation.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+  \vspace{5pt}
+
+%
+%-----------SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Developing}{: Assembly, C/C++, C\#.NET, Golang, HTML, JavaScript, PHP, Python, Rustlang, Verilog} \\
+     \textbf{Hardware}{: Arduino, Raspberry Pi, PCB, Intel FPGA(w/ Verilog), STM32, EFM32, RP2040} \\
+     \textbf{Industry Knowledge}{: Database, DNS, Embedded Systems, Signal Processing, Linux, \LaTeX, SQL, WebRTC, Win32} \\
+     \textbf{Software}{: Altium, Git, Docker, MATLAB, Microsoft Azure, Quartus, SHELL, SSH, Visual Studio, VMware}
+    }}
+ \end{itemize}
+
+ \vspace{5pt}
+%-------------------------------------------
+\section{Notes}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Immigration status}{: F-1 on OPT starting July 1, 2021. Will require sponsor for H1-B in the future.} \\
+  }}
+ \end{itemize}
+
+
+\end{document}
