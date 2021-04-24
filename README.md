@@ -7,13 +7,13 @@
   - 🛠 DevOps Engineer
   - 📦 Software Engineer
   - 🕹 Hardware Engineer
-- 💬 I would like to discuss about Anti-censorship, Embedded Systems, Concurrent Programming, Computer Architecture, Assembly, or other generic programming questions.
+<!--- 💬 I would like to discuss about Anti-censorship, Embedded Systems, Concurrent Programming, Computer Architecture, Assembly, or other generic programming questions. -->
 - 📫 Public Contact: [gaukaswang@gmail.com](mailto:gaukaswang@gmail.com)/ Telegram:[@GaukasWang](https://t.me/GaukasWang)
 - 👀 Interested in reverse-engineering software/hardware systems. Currently working on a [Security Camera](https://github.com/rfenouil/IP-Camera-Neye3C) 
-- ⚡ On-going Challenge: 1 Commit Everyday <!-- - *FAILED* -->
+<!--- ⚡ On-going Challenge: 1 Commit Everyday <!-- - *FAILED* -->
 - ⚠ Found security exploits:
   - [CVE-2021-28681](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681) in [Pion/WebRTC](https://github.com/pion/webrtc) 
-- 💉 Received COVID-19 Vaccine! Received Pfizer first dose.
+<!--- 💉 Received COVID-19 Vaccine! Received Pfizer first dose. -->
 
 <!--
 **Gaukas/Gaukas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
