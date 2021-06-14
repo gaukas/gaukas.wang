@@ -1,7 +1,6 @@
 ### Gaukas Wang, Computer Engineer
 
 - 🌐 I am the owner of [gaukas.wang](https://gaukas.wang).
-- 🔏 Please find my PGP key (for Email only) [here](https://raw.githubusercontent.com/Gaukas/Gaukas/master/GaukasWang_PGP_EMAIL_public.asc)
 - 🤖 I code in C/C++/Go/PHP/Python/Rust. 
 - 🔧 I am experienced as a 
   - 🛠 DevOps Engineer
