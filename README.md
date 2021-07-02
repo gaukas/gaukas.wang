@@ -6,7 +6,7 @@
   - 🛠 DevOps Engineer
   - 📦 Software Engineer
   - 🕹 Hardware Engineer
-- 📫 Public Contact: [gaukaswang@gmail.com](mailto:gaukaswang@gmail.com)/ Telegram:[@GaukasWang](https://t.me/GaukasWang)
+- 📫 Permanent E-mail: [i@gaukas.wang](mailto:i@gaukas.wang)/ Telegram:[@GaukasWang](https://t.me/GaukasWang)
 - 👀 Interested in reverse-engineering software/hardware systems. Currently working on a [Security Camera](https://github.com/rfenouil/IP-Camera-Neye3C) 
 - ⚠ Found security exploits:
   - [CVE-2021-28681](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681) in [Pion/WebRTC](https://github.com/pion/webrtc) 
