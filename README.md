@@ -10,6 +10,7 @@
 - 👀 Interested in reverse-engineering software/hardware systems. Currently working on a [Security Camera](https://github.com/rfenouil/IP-Camera-Neye3C) 
 - ⚠ Found security exploits:
   - [CVE-2021-28681](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681) in [Pion/WebRTC](https://github.com/pion/webrtc) 
+  - [CVE-ID-PENDING](https://github.com/instructure/canvas-lms/issues/1905) in [instructure/canvas-lms](https://github.com/instructure/canvas-lms)
 
 <!--
 **Gaukas/Gaukas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
