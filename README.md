@@ -1,4 +1,4 @@
-### Gaukas Wang, Computer Engineer
+### Gaukas Wang, Computer Engineer & Censorship Researcher
 
 - 🌐 I am the owner of [gaukas.wang](https://gaukas.wang).
 - 🤖 I code in C/C++/Go/PHP/Python/Rust. 
@@ -11,6 +11,7 @@
 - ⚠ Found security exploits:
   - [CVE-2021-28681](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681) in [Pion/WebRTC](https://github.com/pion/webrtc) 
   - [CVE-ID-PENDING](https://github.com/instructure/canvas-lms/issues/1905) in [instructure/canvas-lms](https://github.com/instructure/canvas-lms)
+- 🚓 Investigating an on-going internet censorship incident: [GFW-2021Summer-TLS-Proxy-Attack](https://github.com/Gaukas/GFW-2021Summer-TLS-Proxy-Attack)
 
 <!--
 **Gaukas/Gaukas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
