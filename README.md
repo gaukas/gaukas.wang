@@ -1,14 +1,21 @@
 ## Gaukas Wang, Computer Engineer & Censorship Researcher
 
-- 🌐 I am the owner & webmaster of [gaukas.wang](https://gaukas.wang).
-- 🎛 Major programming language of me: Golang, PHP, Python, Rust.
-  - No Java. No.
-  - C/C++ as well in the past, but IMO now they ought to be deprecated.
+### Identity 
 
-- 🔧 I am experienced as a 
-  - 🥼 Censorship Researcher
-  - 🛠 DevOps Engineer
-  - 🧰 Software/System Engineer
+[Keybase](https://keybase.io/gaukas) | [LinkedIn](https://www.linkedin.com/in/gaukaswang/) | [Gaukas.Wang](https://gaukas.wang) | [CV](https://gaukas.wang/latest/cv.pdf) | [Resume](https://gaukas.wang/latest/resume.pdf)
+
+### Skillset
+
+- 🎛 Programming Language
+  - ✅ Professional: Go, Rust, Shell(Scripting language), MATLAB, Python. 
+    - ⛔ Deprecated: C/C++, PHP
+  - ☑ Limited Experience: ASP.NET/C#, JavaScript(w/ Node.JS), 
+  - 🚫 Against: Java
+  
+- 🔧 Professional Role & Knowledge
+  - 🥼 Censorship Researcher: Censorship Circumvention, Cryptography, Data Analysis, Network Diagnosis, Research
+  - 🛠 DevOps Engineer: Cloud platforms, Linux/Win System Administration, NetEngineering, Containerization, Virtualization
+  - 🧰 Software Engineer: API, Code Review, Concurrent Programming, Debugging, Embedded Systems, Ethereum Smart Contract
 
 ### Contact Me
 
