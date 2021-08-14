@@ -10,8 +10,12 @@ People had been asking me the meaning of my name Gaukas for many years. Here's w
 But here's how I get this name: _When I was in my middle school, I got sick one day so I took a day-off. As it is so boring to staying at home alone, I started to play the campaign of a game called **Warcraft 3: Frozen Throne**. To start with I need to create a profile and I randomly typed some mumbo jumbo starting with something like **gaukas**, which sounded like a name. So I kept it as my alias until now._
 
 ### Identity 
-
-[Gaukas.Wang](https://gaukas.wang) | [Keybase](https://keybase.io/gaukas) | [LinkedIn](https://www.linkedin.com/in/gaukaswang/) | [CV](https://gaukas.wang/latest/cv.pdf) | [Resume](https://gaukas.wang/latest/resume.pdf)
+[Gauk.as](https://gauk.as) | 
+[Gaukas.Wang](https://gaukas.wang) | 
+[Keybase](https://keybase.io/gaukas) | 
+[LinkedIn](https://www.linkedin.com/in/gaukaswang/) | 
+[CV](https://gaukas.wang/latest/cv.pdf) | 
+[Resume](https://gaukas.wang/latest/resume.pdf)
 
 ### Skillset
 
