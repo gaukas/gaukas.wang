@@ -1,13 +1,16 @@
 ## [Gaukas Wang](https://github.com/Gaukas), Computer Engineer & Censorship Researcher
 
-### Strange name?
+### Weird name, isn't it?
 
-People had been asking me the meaning of my name Gaukas for many years. Here's what I found 
+People had been asking me the meaning of my name Gaukas for many years. 
 
+<!-- 
+Here's what I found 
 **Gau-**: Area of fertile agricultural land <br>
-**-kas**: Treasurer
+**-kas**: Treasurer 
+-->
 
-But here's how I get this name: _When I was in my middle school, I got sick one day so I took a day-off. As it is so boring to staying at home alone, I started to play the campaign of a game called **Warcraft 3: Frozen Throne**. To start with I need to create a profile and I randomly typed some mumbo jumbo starting with something like **gaukas**, which sounded like a name. So I kept it as my alias until now._
+So here's how I get this name: _When I was in my middle school, I got sick one day so I took a day-off. As it is so boring to staying at home alone, I started to play the campaign of a game called **Warcraft 3: Frozen Throne**. To start with I need to create a profile and I randomly typed some mumbo jumbo starting with something like **gaukas**, which sounded like a name. So I kept it as my alias until now._
 
 ### Identity 
 [Gauk.as](https://gauk.as) | 
@@ -43,6 +46,10 @@ But here's how I get this name: _When I was in my middle school, I got sick one 
   - Unrestricted file access for unprivileged users in [instructure/canvas-lms](https://github.com/instructure/canvas-lms), [GitHub Issue](https://github.com/instructure/canvas-lms/issues/1905)
 - 🏁 Security Incidents on my watchlist:
   - [GFW-2021Summer-TLS-RST-Incident](https://github.com/Gaukas/GFW-2021Summer-TLS-RST-Incident)
+
+### Relation with *Gaukas Wang Holding*
+
+[Gaukas Wang Holding](https://github.com/GaukasWang) is the GitHub Organization I established to preserve a copy for each of my formal projects. Projects might be preserved as in either form: either the original repository or a fork of the repository from [@Gaukas](https://github.com/Gaukas)
 
 <!--
 **Gaukas/Gaukas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
