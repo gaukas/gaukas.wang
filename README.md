@@ -43,7 +43,7 @@ So here's how I get this name: _When I was in my middle school, I got sick one d
 <!-- - 👀 Interested in reverse-engineering software/hardware systems. Currently working on a [Security Camera](https://github.com/rfenouil/IP-Camera-Neye3C)  -->
 - ⚠ Found security exploits:
   - MITM Vulnerability in DTLS Connections in [Pion/WebRTC](https://github.com/pion/webrtc) as [CVE-2021-28681](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681), [GitHub Issue](https://github.com/pion/webrtc/issues/1708)
-  - Unrestricted file access for unprivileged users in [instructure/canvas-lms](https://github.com/instructure/canvas-lms), [GitHub Issue](https://github.com/instructure/canvas-lms/issues/1905)
+  - Unrestricted file access for unprivileged users in [instructure/canvas-lms](https://github.com/instructure/canvas-lms), [GitHub Issue](https://github.com/instructure/canvas-lms/issues/1905), [Repository](https://github.com/Gaukas/instructure-canvas-file-oracle)
 - 🏁 Security Incidents on my watchlist:
   - [GFW-2021Summer-TLS-RST-Incident](https://github.com/Gaukas/GFW-2021Summer-TLS-RST-Incident)
 
