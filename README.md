@@ -24,13 +24,14 @@ So here's how I get this name: _When I was in my middle school, I got sick one d
 
 - 🎛 Programming Language
   - ✅ Professional: Go, Rust, Shell(Scripting language), MATLAB, Python. 
-    - ⛔ Deprecated: C/C++, PHP
+    - ⛔ Deprecated: C/C++, PHP  
   - ☑ Limited Experience: ASP.NET/C#, JavaScript(w/ Node.JS), 
   - 🚫 Against: Java
   
 - 🔧 Professional Role & Knowledge
-  - 🥼 Censorship Researcher: Censorship Circumvention, Cryptography, Data Analysis, Network Diagnosis, Research
-  - 🛠 DevOps Engineer: Cloud platforms, Linux/Win System Administration, NetEngineering, Containerization, Virtualization
+  - 🥼 Censorship Researcher: Censorship Circumvention, Cryptography, Data Analysis, Network Diagnosis
+  - 🕵️‍♂️ Security Researcher: Internet Security, AppSec, Penetration Test, Zero Trust System/Network
+  - 🛠 DevOps Engineer: Cloud platforms, Linux/Windows System Administration, Containerization, Virtualization
   - 🧰 Software Engineer: API, Code Review, Concurrent Programming, Debugging, Embedded Systems, Ethereum Smart Contract
 
 ### Contact Me
