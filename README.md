@@ -12,6 +12,11 @@ Here's what I found
 
 So here's how I get this name: _When I was in my middle school, I got sick one day so I took a day-off. As it is so boring to staying at home alone, I started to play the campaign of a game called **Warcraft 3: Frozen Throne**. To start with I need to create a profile and I randomly typed some mumbo jumbo starting with something like **gaukas**, which sounded like a name. So I kept it as my alias until now._
 
+### Selected Projects
+- [SuperLeakage](https://tunnelwork.github.io/SuperLeakage/) - See how much can I leak out of you?
+- [TranspoRTC](https://github.com/Gaukas/transportc) - WebRTC, but it is a transport.
+- [PlaySync](https://github.com/PlaySync/PlaySync) - Moving to a new Music platform? Or keep both.
+
 ### Identity 
 [Gauk.as](https://gauk.as) | 
 [Gaukas.Wang](https://gaukas.wang) | 
