@@ -22,7 +22,7 @@ So here's how I get this name: _When I was in my middle school, I got sick one d
 [Gaukas.Wang](https://gaukas.wang) | 
 [Keybase](https://keybase.io/gaukas) | 
 [LinkedIn](https://www.linkedin.com/in/gaukaswang/) | 
-[CV](https://gauk.as/CV) | 
+[CV](https://gauk.as/cv) | 
 [Resume](https://gauk.as/resume)
 
 ### Skillset
