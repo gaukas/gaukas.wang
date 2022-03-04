@@ -44,18 +44,21 @@ So here's how I get this name: _When I was in my middle school, I got sick one d
 - 📫 Permanent E-mail: [i@gaukas.wang](mailto:i@gaukas.wang)
 - Telegram:[@GaukasWang](https://t.me/GaukasWang)
 
-### Experience in Security field
+### I love breaking things...
 
 <!-- - 👀 Interested in reverse-engineering software/hardware systems. Currently working on a [Security Camera](https://github.com/rfenouil/IP-Camera-Neye3C)  -->
 - ⚠ Found security exploits:
   - MITM Vulnerability in DTLS Connections in [Pion/WebRTC](https://github.com/pion/webrtc) as [CVE-2021-28681](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681), [GitHub Issue](https://github.com/pion/webrtc/issues/1708)
-  - Unrestricted file access for unprivileged users in [instructure/canvas-lms](https://github.com/instructure/canvas-lms), [GitHub Issue](https://github.com/instructure/canvas-lms/issues/1905), [Repository](https://github.com/Gaukas/instructure-canvas-file-oracle)
+  - Unrestricted file access for unprivileged users in [instructure/canvas-lms](https://github.com/instructure/canvas-lms), [GitHub Issue](https://github.com/instructure/canvas-lms/issues/1905), [PoC](https://github.com/Gaukas/instructure-canvas-file-oracle)
+
+### Also, things broken by others also attract me...
+- 🛠️ Go compare your floating numbers [PoC with Fix](https://github.com/Gaukas/gofloatcompare)
 - 🏁 Security Incidents on my watchlist:
   - [GFW-2021Summer-TLS-RST-Incident](https://github.com/Gaukas/GFW-2021Summer-TLS-RST-Incident)
 
 ### Relation with *Gaukas Wang Holding*
 
-[Gaukas Wang Holding](https://github.com/GaukasWang) is the GitHub Organization I established to preserve a copy for each of my formal projects. Projects might be preserved as in either form: either the original repository or a fork of the repository from [@Gaukas](https://github.com/Gaukas)
+[Gaukas Wang Holding](https://github.com/GaukasWang) is the GitHub Organization I established to preserve a copy for each of my **formal** projects. Projects might be preserved as in either form: As the original repository or as a fork of the original repository (which is/was under [@Gaukas](https://github.com/Gaukas))
 
 <!--
 **Gaukas/Gaukas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
