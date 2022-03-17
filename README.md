@@ -1,48 +1,39 @@
-## [Gaukas Wang](https://github.com/Gaukas), Computer Engineer & Censorship Researcher
+## [Gaukas](https://github.com/Gaukas) Wang, A Cybersecurity Researcher & Computer Engineer
 
-### Weird name, isn't it?
+### Weird name, huh?
 
-People had been asking me the meaning of my name Gaukas for many years. 
+People had been asking me the meaning of my name Gaukas for many years. Well it was originally picked from a long pseudorandom string. 
 
-<!-- 
-Here's what I found 
-**Gau-**: Area of fertile agricultural land <br>
-**-kas**: Treasurer 
--->
-
-So here's how I get this name: _When I was in my middle school, I got sick one day so I took a day-off. As it is so boring to staying at home alone, I started to play the campaign of a game called **Warcraft 3: Frozen Throne**. To start with I need to create a profile and I randomly typed some mumbo jumbo starting with something like **gaukas**, which sounded like a name. So I kept it as my alias until now._
-
-### Selected Projects
-- [SuperLeakage](https://tunnelwork.github.io/SuperLeakage/) - See how much can I leak out of you?
-- [TranspoRTC](https://github.com/Gaukas/transportc) - WebRTC, but it is a transport.
-- [PlaySync](https://github.com/PlaySync/PlaySync) - Moving to a new Music platform? Or keep both.
+### Selected Recent Projects
+- [Signing.WebAuthn](https://github.com/Gaukas/signing.webauthn) - Digital Signature via WebAuthn
+- [SuperLeakage](https://tunnelwork.github.io/SuperLeakage/) - Frontend Privacy Exploitation
+- [TranspoRTC](https://github.com/Gaukas/transportc) - UDP Transport built with WebRTC DataChannel
+<!--- - [PlaySync](https://github.com/PlaySync/PlaySync) - Moving to a new Music platform? Or keep both. -->
 
 ### Identity 
-[Gauk.as](https://gauk.as) | 
-[Gaukas.Wang](https://gaukas.wang) | 
+[CV](https://gauk.as/cv) | 
+[Resume](https://gauk.as/resume) | 
 [Keybase](https://keybase.io/gaukas) | 
 [LinkedIn](https://www.linkedin.com/in/gaukaswang/) | 
-[CV](https://gauk.as/cv) | 
-[Resume](https://gauk.as/resume)
-
+[Gaukas.Wang](https://gaukas.wang) 
 ### Skillset
 
 - 🎛 Programming Language
-  - ✅ Professional: Go, Rust, Shell(Scripting language), MATLAB, Python. 
-    - ⛔ Deprecated: C/C++, PHP  
-  - ☑ Limited Experience: ASP.NET/C#, JavaScript(w/ Node.JS), 
-  - 🚫 Against: Java
+  - ✅ Experienced: Go, Rust, Shell(Scripting language), MATLAB, Python. 
+  - 💔 Retired: C/C++, PHP
+  - ⛔ Limited Exp: ASP.NET/C#, JavaScript(with or without Node.JS), 
+  - 🚫 Never: Java
   
-- 🔧 Professional Role & Knowledge
-  - 🥼 Censorship Researcher: Censorship Circumvention, Cryptography, Data Analysis, Network Diagnosis
-  - 🕵️‍♂️ Security Researcher: Internet Security, AppSec, Penetration Test, Zero Trust System/Network
-  - 🛠 DevOps Engineer: Cloud platforms, Linux/Windows System Administration, Containerization, Virtualization
-  - 🧰 Software Engineer: API, Code Review, Concurrent Programming, Debugging, Embedded Systems, Ethereum Smart Contract
+- 🔧 Recent Professional Roles 
+  - 🥼 Censorship Researcher
+  - 🕵️‍♂️ Security Researcher
+  - 🛠 DevOps Engineer
+  - 🧰 Full Stack Software Engineer
 
 ### Contact Me
 
 - 📫 Permanent E-mail: [i@gaukas.wang](mailto:i@gaukas.wang)
-- Telegram:[@GaukasWang](https://t.me/GaukasWang)
+- 📠 Telegram:[@GaukasWang](https://t.me/GaukasWang)
 
 ### I love breaking things...
 
@@ -56,9 +47,9 @@ So here's how I get this name: _When I was in my middle school, I got sick one d
 - 🏁 Security Incidents on my watchlist:
   - [GFW-2021Summer-TLS-RST-Incident](https://github.com/Gaukas/GFW-2021Summer-TLS-RST-Incident)
 
-### Relation with *Gaukas Wang Holding*
+### Announcement about *Gaukas Wang Trust*
 
-[Gaukas Wang Holding](https://github.com/GaukasWang) is the GitHub Organization I established to preserve a copy for each of my **formal** projects. Projects might be preserved as in either form: As the original repository or as a fork of the original repository (which is/was under [@Gaukas](https://github.com/Gaukas))
+[Gaukas Wang Trust](https://github.com/GaukasWang) is the GitHub Organization established under my written consent in order to preserve a copy for my **formally published** projects. All projects will be preserved as a forked repository from [@Gaukas](https://github.com/Gaukas).
 
 <!--
 **Gaukas/Gaukas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
