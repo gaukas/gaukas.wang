@@ -21,8 +21,8 @@ People had been asking me the meaning of my name Gaukas for many years. Well it 
 - 🎛 Programming Language
   - ✅ Experienced: Go, Rust, Shell(Scripting language), MATLAB, Python. 
   - 💔 Retired: C/C++, PHP
-  - ⛔ Limited Exp: ASP.NET/C#, JavaScript(with or without Node.JS), 
-  - 🚫 Never: Java
+  - ⛔ Limited Exp: JavaScript(with or without Node.JS), 
+  - 🚫 Won't do: Java, ASP.NET/C#
   
 - 🔧 Recent Professional Roles 
   - 🥼 Censorship Researcher
