@@ -22,6 +22,3 @@ None. The name **GAUKAS** was originally picked from a long pseudorandom string 
 ### Hacker?
 - MITM Vulnerability in DTLS Connections in [Pion/WebRTC](https://github.com/pion/webrtc) as [CVE-2021-28681](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681), [GitHub Issue](https://github.com/pion/webrtc/issues/1708)
 - Unrestricted file access in [instructure/canvas-lms](https://github.com/instructure/canvas-lms), [GitHub Issue](https://github.com/instructure/canvas-lms/issues/1905), [PoC](https://github.com/Gaukas/instructure-canvas-file-oracle)
-
-### About *Gaukas Wang Trust*
-[Gaukas Wang Trust](https://github.com/GaukasWang) is the GitHub _Organization_ established under my official consent in order to preserve a copy for my **formally published** works. 
