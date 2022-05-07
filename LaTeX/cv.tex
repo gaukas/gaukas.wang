@@ -1,0 +1,285 @@
+%-------------------------
+% Resume in Latex
+% Template Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+% \usepackage{draftwatermark}
+% \SetWatermarkLightness{ 0.95 }
+% \SetWatermarkText{Gaukas.Wang \\ \today}
+% \SetWatermarkScale{3}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\cfoot{
+  You are reading a copy fetched from \href{https://gauk.as/cv}{\textbf{gauk.as/cv}} on \today
+}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+  \href{https://gaukas.wang}{\textbf{\Huge \scshape Gaukas Wang}} \\ \vspace{1pt}
+    %\small Tel: 720-366-4156\footnote{Not for direct contact} $|$ 
+    \href{tel:720-366-4156}{{720-366-4156}} $|$
+    % \href{mailto:yiwa9869@colorado.edu}{\underline{yiwa9869@colorado.edu}} $|$
+    \href{mailto:i@gaukas.wang}{{i@gaukas.wang}} $|$ 
+    \href{https://www.linkedin.com/in/gaukaswang/}{{LinkedIn.com/in/gaukaswang/}} $|$
+    \href{https://github.com/Gaukas}{{GitHub.com/Gaukas}} $|$ 
+    \href{https://gauk.as/resume}{{Resume}}
+    
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {University of Colorado Boulder}{}
+    {\textbf{B.Sc.} in Electrical and Computer Engineering, \textbf{Summa Cum Laude}}{Aug 2018 - May 2021}
+  \resumeSubSubheading
+    {\textbf{Ph.D.} in Electrical Engineering}{Aug 2022 - May 2027}
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH----------
+\section{Research Interests}
+\begin{itemize}[] {
+  \item \textbf{Censorship Circumvention}
+  \item \textbf{Zero-Trust Network/Systems}
+  \item \textbf{Zero-Knowledge Proof}
+  \item \textbf{Hardware Security}
+}
+\end{itemize}
+
+% \section{Research Paper}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {\textbf{Acuerdo, Fast Broadcast over RDMA}}{}
+%       {Co-authored with \emph{J. Izraelevitz, K. Silvers, G. Chockler, A. Gotsman} }{Expected 2022}
+%     \resumeSubheading
+%       {\textbf{MRTOM: Mostly Reliable Totally Ordered Multicast}}{}
+%       {Co-authored with \emph{Z. Liu, D. Grunwald, J. Izraelevitz, S. Ha} }{Submitted for EuroSys'22}
+%     \resumeSubheading
+%       {\textbf{Peering into the Abyss: Using WebRTC in Censorship Circumvention}}{}
+%       {Co-authored with \emph{J. Wampler, E. Wustrow}}{Expected 2022}
+%   \resumeSubHeadingListEnd
+
+% \vspace{1pt}
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+  {Intelepeer Cloud Communications LLC}{}
+  {Software Engineer}{Aug 2021 - June 2022}
+  \resumeItemListStart
+    \resumeItem{Build, improve and maintain a software infrastructure that provides users access to a Communication-Platform-as-a-Service (cpaas) operated by IntelePeer.}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Tunnel.Work}{}
+    {CTO}{Aug 2017 - Present}
+    \resumeItemListStart
+      \resumeItem{Single-handedly operated this incorporated anti-censorship organization to deliver robust and affordable censorship circumvention solutions to end users. }
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {University of Colorado Boulder}{}
+      {Researcher @ Computer Systems Lab CU}{Jan 2021 - Apr 2022}
+      \resumeItemListStart
+        \resumeItem{In the group Refraction Networking. Advised by Prof. Eric Wustrow.}
+        \resumeItem{Built a WebRTC based, DTLS(UDP) Transport for a novel censorship circumvention tool named Conjure.}
+      \resumeItemListEnd
+      \resumeSubSubheading
+        {Research Assistant @ CU-NVM, Computer Systems Lab}{Apr 2020 - Apr 2021}
+        \resumeItemListStart
+          \resumeItem{In the group CU-NVM of Systems Lab at CU. Advised by Prof. Joseph Izraelevitz.}
+          \resumeItem{Field of research: Remote Direct Memory Access (RDMA)}
+        \resumeItemListEnd
+      \resumeSubSubheading
+        {Teaching Assistant @ Department of Electrical, Computer and Energy Engineering}{Jan 2020 - Apr 2021}
+        \resumeItemListStart
+          \resumeItem{In ECEN 4313/5033, CSCI 4830/7000 Concurrent Programming (Remote) taught by Professor Joseph Izraelevitz.}
+          \resumeItem{My work includes holding weekly office hours and conduct troubleshooting sessions upon requests.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Sarus Lifting}{}
+      {Software/Firmware DevOps Engineer}{Aug 2020 - Apr 2021}
+      \resumeItemListStart
+        \resumeItem{Software Engineer: Provide critical designs and develops for a mission-critical distributed embedded system.}
+        \resumeItem{DevOps: Administrate the code base, implement and maintain CI/CD workflows.}
+      \resumeItemListEnd
+% % -----------Multiple Positions Heading-----------
+
+   \resumeSubHeadingListEnd
+% -------------------------------------------
+
+  % \resumeSubHeadingListEnd
+ 
+%-----------PUB PROJECTS-----------
+\section{Selected Projects \& Contributions}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+        {\href{https://github.com/Gaukas/seed2sdp}{\textbf{Seed2SDP}} $|$ \emph{Golang, WebRTC}}{}
+        \resumeItemListStart
+        \resumeItem{A seed-based SDP generator which simplify the signal process for WebRTC Protocol.}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\href{https://github.com/Gaukas/transportc}{\textbf{TranspoRTC}} $|$ \emph{Golang, WebRTC}}{}
+        \resumeItemListStart
+        \resumeItem{A pluggable network transport implemented based on WebRTC datachannel.}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\href{https://github.com/pion/webrtc/security/advisories/GHSA-74xm-qj29-cq8p}{\textbf{DTLS Fingerprints Mismatch in pion/webrtc}} $|$ \href{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681}{\emph{CVE-2021-28681}}}{Mar 2021}
+        \resumeItemListStart
+        \resumeItem{A moderate-level CVE impacting a widely used WebRTC API library.}
+        \resumeItemListEnd     
+
+      \resumeProjectHeading
+        {\href{https://github.com/Gaukas/instructure-canvas-file-oracle}{\textbf{Canvas LMS File Oracle Attack}} }{Sept 2021}
+        \resumeItemListStart
+        \resumeItem{An exploit allowing any Canvas LMS user to bypass file permission restrictions.}
+        \resumeItemListEnd     
+
+    \resumeSubHeadingListEnd
+
+  \vspace{1pt}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+% \section{Technical Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Programming}{: C/C++, C\#/.NET, Golang, HTML, JavaScript, PHP, Python, Rust, Shell Scripting, Verilog} \\
+%      \textbf{Microcontroller}{: Arduino, EFM32, Intel FPGA, Raspberry Pi, STM32} \\
+%      \textbf{DevOps}{: AWS, Azure, Database, DNS, Docker, GCP, Git, Linux, SQL, Win32, Server Management} \\
+%      \textbf{Other Tools}{: \LaTeX, MATLAB, QEMU, Quartus, Visual Studio, VMware, Wireshark}
+%     }}
+%  \end{itemize}
+
+ 
+%----------- Award -----------
+\section{Contributions, Awards \& Honors}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Undergraduate Outstanding Accomplishment Award} $|$ \emph{University of Colorado Boulder, ECEE}}{April 2021}
+    \resumeProjectHeading
+      {\textbf{Degree Latin Honor: Summa Cum Laude} $|$ \emph{University of Colorado Boulder}}{May 2021}
+    \resumeProjectHeading
+      {\textbf{Dean's List} $|$ \emph{University of Colorado Boulder}}{2018 -- 2021}
+  \resumeSubHeadingListEnd
+
+  \vspace{1pt}
+
+%-------------------------------------------
+\section{Trivia}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+  {
+    \item{
+      \textbf{Immigration Status}{: F-1}
+    }
+    \item{
+      \textbf{Extracurricular Activities}{: I'm a pianist, a videogamer, a content creator. In additon to a full-time engineer.}
+    }
+  }
+ \end{itemize}
+
+
+\end{document}
