@@ -1,4 +1,4 @@
-## [Gaukas](https://github.com/Gaukas) Wang, A Cybersecurity Researcher & Computer Engineer
+## [Gaukas](https://github.com/Gaukas) Wang, a Cybersecurity Researcher & Computer Engineer
 
 <!--[![Gaukas's GitHub stats](https://github-readme-stats.vercel.app/api?username=gaukas)](https://github.com/anuraghazra/github-readme-stats)-->
 

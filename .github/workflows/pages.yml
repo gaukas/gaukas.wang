@@ -2,8 +2,8 @@ name: Update Github Pages branch
 
 on:
   push:
-    branches:
-      - master
+    tags:
+      - v1.*
 
 jobs:
   pages:
