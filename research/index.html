@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Gaukas Wang">
+
+
+    <meta name="subtitle" content="Freedom granted by censorship circumvention will not be real freedom.">
+
+
+    <meta name="description" content="Gaukas Wang built this portfolio site as a researcher in Censorship/Network/Privacy/Security.">
+
+
+
+<title>My research | Gaukas&#39;s Portfolio</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Gaukas&#39;s Portfolio</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">Home</a>
+                
+                    <a class="menu-item" href="/research/">Research</a>
+                
+                    <a class="menu-item" href="/projects/">Projects</a>
+                
+                    <a class="menu-item" href="/publications/">Publications</a>
+                
+                    <a class="menu-item" href="/about/">About</a>
+                
+                    <a class="menu-item" target="_blank" rel="noopener" href="https://dochive.gaukas.wang">DocHive</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Gaukas&#39;s Portfolio</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/">Home</a>
+                
+                    <a class="menu-item" href="/research/">Research</a>
+                
+                    <a class="menu-item" href="/projects/">Projects</a>
+                
+                    <a class="menu-item" href="/publications/">Publications</a>
+                
+                    <a class="menu-item" href="/about/">About</a>
+                
+                    <a class="menu-item" target="_blank" rel="noopener" href="https://dochive.gaukas.wang">DocHive</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">My research</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p>My research interests span multiple areas, including Censorship, Cybersecurity, Network, Privacy. I would like to discuss about censorship circumventions, zero-trust security, zero-knowledge proof, hardware security and general cybersecurity topics. </p>
+<h2 id="Censorship"><a href="#Censorship" class="headerlink" title="Censorship"></a>Censorship</h2><p>When I talk about censorship I mainly refer to the censorship that happens in the cyberspace. I believe censorship is harmful overall. First it discourages people from getting enough informations that comes from different sources and viewpoints, therefore amplifies the ignorance. And Censorship may make people more vulnerable to false information by having less exposure to fake news. More importantly censorship will put the crowd under governments full-control. A biased government could simply use its propaganda to manipulate the entire population under its ruling when censorship coverage is considered complete.</p>
+<p>While governments seek to expand their influence in the cyberspace, netizens should be aware of these potential risks brought in by their governments.</p>
+<p>This is one of the major research fields of mine. I think my interest in censorship (and especially its circumventions) could be largely based on the fact that I am from the most CENSORED country in the world (yeah you know it). </p>
+<h2 id="Hardware-Security"><a href="#Hardware-Security" class="headerlink" title="Hardware Security"></a>Hardware Security</h2><p>Modern computers could be vulnerable in hardware level. And some hardwares created to provide security functionalities could be insecured itself. </p>
+<p>Hardware security has been receiving more and more attention since we suffered from <a target="_blank" rel="noopener" href="https://meltdownattack.com/">Meltdown and Spectre</a>, which is good. But yet it requires more attention and the idea of hardware security should be shared among every Computer Engineer.</p>
+<h2 id="Zero-trust-Security-and-Zero-knowledge-Prooof"><a href="#Zero-trust-Security-and-Zero-knowledge-Prooof" class="headerlink" title="Zero-trust Security and Zero-knowledge Prooof"></a>Zero-trust Security and Zero-knowledge Prooof</h2><p>First to be clear, these two fields are 2 distinguished, separate research fields. The only reason they are put together is that I do think they could be combined for a more robust access control model.</p>
+<p><em>Trust is vulnerable</em>, I don’t remember who said that. But it is true. Any non-volatile trust credentials could be stolen by an attacker and after that it would be challenging to distinguish a stolen credential from an untainted one. </p>
+<p>But adding more authentication doesn’t help that much. The attacker, once obtain the ownership of the authentication factor, could easily authenticate as the user. For example, a man-in-the-middle(MITM) could easily intercept the password used to login as the user. To be honest, the trust established based on the fact that the other party has a certain text phrase (so-called <em>password</em>) isn’t wise. But if the authentication process contains <strong>knowledge</strong>, then it may be intercepted by someone listening. </p>
+<p>So the idea is quite clear that the Zero-trust Security should be guarded by Zero-knowledge Proof in order to be practical and complete. </p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://gaukas.wang/research/">https://gaukas.wang/research/</a></span>
+                    </p>
+                
+                
+                
+
+            </section>
+        
+        <!-- <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section> -->
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/publications/">Publications</a>
+            
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>Copyright © Gaukas Wang under <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
