@@ -22,5 +22,5 @@ None. The name **GAUKAS** was originally picked from a long pseudorandom string 
 [<img src="https://raw.githubusercontent.com/Gaukas/Gaukas/master/profile/images/logo_wasm.png" width="64"/>](https://webassembly.org/)
 
 ### Hacker?
-- MITM Vulnerability in DTLS Connections in [Pion/WebRTC](https://github.com/pion/webrtc) as [CVE-2021-28681](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681), [GitHub Issue](https://github.com/pion/webrtc/issues/1708)
+- [CVE-2021-28681](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681): MITM Vulnerability in DTLS Connections in [pion/webrtc](https://github.com/pion/webrtc), [GitHub Issue](https://github.com/pion/webrtc/issues/1708)
 - Unrestricted file access in [instructure/canvas-lms](https://github.com/instructure/canvas-lms), [GitHub Issue](https://github.com/instructure/canvas-lms/issues/1905), [PoC](https://github.com/Gaukas/instructure-canvas-file-oracle)
