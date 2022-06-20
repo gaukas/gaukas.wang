@@ -41,7 +41,8 @@
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
 \cfoot{
-  You are reading a copy fetched from \href{https://gauk.as/cv}{\textbf{gauk.as/cv}} on \today
+  This is a copy published on \textbf{\today}. 
+  Fetch the latest copy from \href{https://gauk.as/cv}{\textbf{gauk.as/cv}}
 }
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -129,80 +130,86 @@
 \section{Education}
 \resumeSubHeadingListStart
   \resumeSubheading
-    {University of Colorado Boulder}{}
+    {University of Colorado, Boulder}{}
     {\textbf{B.Sc.} in Electrical and Computer Engineering, \textbf{Summa Cum Laude}}{Aug 2018 - May 2021}
   \resumeSubSubheading
-    {\textbf{Ph.D.} in Electrical Engineering}{Aug 2022 - May 2027}
+    {\textbf{Ph.D.} in Electrical Engineering}{Aug 2022 - May 2027\textit{(est.)}}
+  \resumeSubHeadingListEnd
+
+%----------- Award -----------
+\section{Awards \& Honors}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading 
+      {\textbf{ECEE Excellence Fellowship}}{University of Colorado, Boulder}
+    \resumeProjectHeading
+      {\textbf{Summa Cum Laude}}{University of Colorado, Boulder}
+    \resumeProjectHeading
+      {\textbf{Undergraduate Outstanding Accomplishment Award}}{University of Colorado, Boulder}
+  \resumeSubHeadingListEnd
+
+  \vspace{1pt}
+
+%----------- Research -----------
+\section{Published Research}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{Acuerdo: Fast Atomic Broadcast over RDMA}}{}
+      {\emph{J. Izraelevitz, G. Wang, R. Hanscom, K. Silvers, T. Lehman, G. Chockler, A. Gotsman} }{ICPP 2022}
   \resumeSubHeadingListEnd
 
 %-----------RESEARCH----------
 \section{Research Interests}
-\begin{itemize}[] {
-  \item \textbf{Censorship Circumvention}
-  \item \textbf{Zero-Trust Network/Systems}
-  \item \textbf{Zero-Knowledge Proof}
-  \item \textbf{Hardware Security}
-}
-\end{itemize}
 
-% \section{Research Paper}
-%   \resumeSubHeadingListStart
-%     \resumeSubheading
-%       {\textbf{Acuerdo, Fast Broadcast over RDMA}}{}
-%       {Co-authored with \emph{J. Izraelevitz, K. Silvers, G. Chockler, A. Gotsman} }{Expected 2022}
-%     \resumeSubheading
-%       {\textbf{MRTOM: Mostly Reliable Totally Ordered Multicast}}{}
-%       {Co-authored with \emph{Z. Liu, D. Grunwald, J. Izraelevitz, S. Ha} }{Submitted for EuroSys'22}
-%     \resumeSubheading
-%       {\textbf{Peering into the Abyss: Using WebRTC in Censorship Circumvention}}{}
-%       {Co-authored with \emph{J. Wampler, E. Wustrow}}{Expected 2022}
-%   \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Censorship Circumvention}}{}
+  \resumeProjectHeading
+    {\textbf{Privacy}}{}
+  \resumeProjectHeading
+    {\textbf{Software Security}}{}
+  \resumeProjectHeading
+    {\textbf{Zero-Knowledge Proof}}{}
+  \resumeProjectHeading
+    {\textbf{Zero-Trust Security}}{}
+\resumeSubHeadingListEnd
 
-% \vspace{1pt}
 %-----------EXPERIENCE-----------
-\section{Experience}
+\section{Professional Experience}
   \resumeSubHeadingListStart
 
-  \resumeSubheading
-  {Intelepeer Cloud Communications LLC}{}
-  {Software Engineer}{Aug 2021 - June 2022}
-  \resumeItemListStart
-    \resumeItem{Build, improve and maintain a software infrastructure that provides users access to a Communication-Platform-as-a-Service (cpaas) operated by IntelePeer.}
-  \resumeItemListEnd
-
-  \resumeSubheading
-    {Tunnel.Work}{}
-    {CTO}{Aug 2017 - Present}
-    \resumeItemListStart
-      \resumeItem{Single-handedly operated this incorporated anti-censorship organization to deliver robust and affordable censorship circumvention solutions to end users. }
-    \resumeItemListEnd
-
     \resumeSubheading
-      {University of Colorado Boulder}{}
-      {Researcher @ Computer Systems Lab CU}{Jan 2021 - Apr 2022}
+      {Software Engineer I}{}
+      {Intelepeer Cloud Communications LLC}{Aug 2021 - June 2022}
       \resumeItemListStart
-        \resumeItem{In the group Refraction Networking. Advised by Prof. Eric Wustrow.}
-        \resumeItem{Built a WebRTC based, DTLS(UDP) Transport for a novel censorship circumvention tool named Conjure.}
+        \resumeItem{Building and maintaining a software system which provides users interfaces to access a Communication-Platform-as-a-Service (cpaas) infrastructure.}
       \resumeItemListEnd
-      \resumeSubSubheading
-        {Research Assistant @ CU-NVM, Computer Systems Lab}{Apr 2020 - Apr 2021}
-        \resumeItemListStart
-          \resumeItem{In the group CU-NVM of Systems Lab at CU. Advised by Prof. Joseph Izraelevitz.}
-          \resumeItem{Field of research: Remote Direct Memory Access (RDMA)}
-        \resumeItemListEnd
-      \resumeSubSubheading
-        {Teaching Assistant @ Department of Electrical, Computer and Energy Engineering}{Jan 2020 - Apr 2021}
-        \resumeItemListStart
-          \resumeItem{In ECEN 4313/5033, CSCI 4830/7000 Concurrent Programming (Remote) taught by Professor Joseph Izraelevitz.}
-          \resumeItem{My work includes holding weekly office hours and conduct troubleshooting sessions upon requests.}
-        \resumeItemListEnd
 
     \resumeSubheading
-      {Sarus Lifting}{}
-      {Software/Firmware DevOps Engineer}{Aug 2020 - Apr 2021}
+      {Researcher}{}
+      {University of Colorado, Boulder}{Jan 2021 - Apr 2022}
       \resumeItemListStart
-        \resumeItem{Software Engineer: Provide critical designs and develops for a mission-critical distributed embedded system.}
-        \resumeItem{DevOps: Administrate the code base, implement and maintain CI/CD workflows.}
+        \resumeItem{Attempting to build a DTLS transport layer inspired by WebRTC for Conjure with Prof. Eric Wustrow.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Research Assistant}{}
+      {University of Colorado, Boulder}{Apr 2020 - Apr 2021}
+      \resumeItemListStart
+        \resumeItem{Building an atomic RDMA broadcasting design called Acuerdo with Prof. Joseph Izraelevitz.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer}{}
+      {University of Colorado, Boulder}{Aug 2020 - Apr 2021}
+      \resumeItemListStart
+        \resumeItem{Designing and building a mission-critical automated heavy-lifting controlling system with the team. Managing the code base and implementing CI/CD workflows for automated testing and deploying.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Founder}{}
+      {Tunnel.Work}{Aug 2017 - Present}
+      \resumeItemListStart
+        \resumeItem{Designing and testing new censorship circumvention solutions for users living in regions with high levels of censorship.}
       \resumeItemListEnd
 % % -----------Multiple Positions Heading-----------
 
@@ -212,18 +219,12 @@
   % \resumeSubHeadingListEnd
  
 %-----------PUB PROJECTS-----------
-\section{Selected Projects \& Contributions}
+\section{Selected Works}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-        {\href{https://github.com/Gaukas/seed2sdp}{\textbf{Seed2SDP}} $|$ \emph{Golang, WebRTC}}{}
+        {\href{https://github.com/Gaukas/seed2sdp}{\textbf{Seed2SDP}} \& \href{https://github.com/Gaukas/transportc}{\textbf{TranspoRTC}} $|$ \emph{Golang, WebRTC}}{Apr 2022}
         \resumeItemListStart
-        \resumeItem{A seed-based SDP generator which simplify the signal process for WebRTC Protocol.}
-        \resumeItemListEnd
-
-      \resumeProjectHeading
-        {\href{https://github.com/Gaukas/transportc}{\textbf{TranspoRTC}} $|$ \emph{Golang, WebRTC}}{}
-        \resumeItemListStart
-        \resumeItem{A pluggable network transport implemented based on WebRTC datachannel.}
+        \resumeItem{An implementation of a pluggable WebRTC transport with minimal fingerprintable pattern.}
         \resumeItemListEnd
 
       \resumeProjectHeading
@@ -254,29 +255,12 @@
 %     }}
 %  \end{itemize}
 
- 
-%----------- Award -----------
-\section{Contributions, Awards \& Honors}
-  \resumeSubHeadingListStart
-    \resumeProjectHeading
-      {\textbf{Undergraduate Outstanding Accomplishment Award} $|$ \emph{University of Colorado Boulder, ECEE}}{April 2021}
-    \resumeProjectHeading
-      {\textbf{Degree Latin Honor: Summa Cum Laude} $|$ \emph{University of Colorado Boulder}}{May 2021}
-    \resumeProjectHeading
-      {\textbf{Dean's List} $|$ \emph{University of Colorado Boulder}}{2018 -- 2021}
-  \resumeSubHeadingListEnd
-
-  \vspace{1pt}
-
 %-------------------------------------------
-\section{Trivia}
+\section{Other Information}
  \begin{itemize}[leftmargin=0.15in, label={}]
   {
     \item{
-      \textbf{Immigration Status}{: F-1}
-    }
-    \item{
-      \textbf{Extracurricular Activities}{: I'm a pianist, a videogamer, a content creator. In additon to a full-time engineer.}
+      \textbf{US Employment Authorization Sponsorship}{: Accept OPT/CPT or need sponsorship}
     }
   }
  \end{itemize}
