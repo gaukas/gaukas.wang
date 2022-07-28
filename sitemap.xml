@@ -4,7 +4,7 @@
   <url>
     <loc>https://gaukas.wang/about/</loc>
     
-    <lastmod>2022-06-20</lastmod>
+    <lastmod>2022-07-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>https://gaukas.wang/projects/</loc>
     
-    <lastmod>2022-06-20</lastmod>
+    <lastmod>2022-07-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +22,7 @@
   <url>
     <loc>https://gaukas.wang/publications/</loc>
     
-    <lastmod>2022-06-20</lastmod>
+    <lastmod>2022-07-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +31,7 @@
   <url>
     <loc>https://gaukas.wang/research/</loc>
     
-    <lastmod>2022-06-20</lastmod>
+    <lastmod>2022-07-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +40,7 @@
 
   <url>
     <loc>https://gaukas.wang/</loc>
-    <lastmod>2022-06-20</lastmod>
+    <lastmod>2022-07-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
