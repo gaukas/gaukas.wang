@@ -1,25 +1,24 @@
 ---
 title: My research
 ---
-My research interests span multiple areas, including Censorship, Cybersecurity, Network, Privacy. I would like to discuss about censorship circumventions, zero-trust security, zero-knowledge proof, hardware security and general cybersecurity topics. 
+My research interests span multiple areas, including Censorship Circumvention, Cybersecurity, Network, Privacy. 
 
-## Censorship 
-When I talk about censorship I mainly refer to the censorship that happens in the cyberspace. I believe censorship is harmful overall. First it discourages people from getting enough informations that comes from different sources and viewpoints, therefore amplifies the ignorance. And Censorship may make people more vulnerable to false information by having less exposure to fake news. More importantly censorship will put the crowd under governments full-control. A biased government could simply use its propaganda to manipulate the entire population under its ruling when censorship coverage is considered complete.
+## Censorship Circumvention
+Censorship is a serious problem in many countries. Since *Uncensored Internet Access is a basic human right*, censorship should be considered as a violation of human rights. 
 
-While governments seek to expand their influence in the cyberspace, netizens should be aware of these potential risks brought in by their governments.
+I still believe censorship is overall harmful no matter which country it is. It discourages people from getting unbiased informations and therefore amplifies the ignorance. In addition, Censorship may make a society more vulnerable to false information by having less exposure to such. 
 
-This is one of the major research fields of mine. I think my interest in censorship (and especially its circumventions) could be largely based on the fact that I am from the most CENSORED country in the world (yeah you know it). 
+While governments seek to expand their influence in the cyberspace, it is the responsibility of all netizens to raise awareness of these potential risks brought in by governments from the countries all over the world.
 
-## Hardware Security 
-Modern computers could be vulnerable in hardware level. And some hardwares created to provide security functionalities could be insecured itself. 
+## Cybersecurity 
+Cybersecurity is a broad and popular topic. As it indicates, it is a field that studies the security of computer systems. It may not be so far from everyone's daily life as it may sound. Try think about the presidential election in the US, what if the electronic voting system is compromised? 
 
-Hardware security has been receiving more and more attention since we suffered from [Meltdown and Spectre](https://meltdownattack.com/), which is good. But yet it requires more attention and the idea of hardware security should be shared among every Computer Engineer.
+## Network
+Network, especially the Internet, is taking a more and more important role in our daily life. It is a platform that connects people all over the world. It is also a platform that allows people to share their ideas and opinions. 
 
-## Zero-trust Security and Zero-knowledge Prooof
-First to be clear, these two fields are 2 distinguished, separate research fields. The only reason they are put together is that I do think they could be combined for a more robust access control model.
+For people living in the modern society, the Internet is a necessity. One day without Internet is like a day without sunshine.
 
-_Trust is vulnerable_, I don't remember who said that. But it is true. Any non-volatile trust credentials could be stolen by an attacker and after that it would be challenging to distinguish a stolen credential from an untainted one. 
+## Privacy
+Privacy violation is a serious problem in the modern society. 
 
-But adding more authentication doesn't help that much. The attacker, once obtain the ownership of the authentication factor, could easily authenticate as the user. For example, a man-in-the-middle(MITM) could easily intercept the password used to login as the user. To be honest, the trust established based on the fact that the other party has a certain text phrase (so-called *password*) isn't wise. But if the authentication process contains **knowledge**, then it may be intercepted by someone listening. 
-
-So the idea is quite clear that the Zero-trust Security should be guarded by Zero-knowledge Proof in order to be practical and complete. 
+I don't think I need to explain how bad it has been or why should we care about it.

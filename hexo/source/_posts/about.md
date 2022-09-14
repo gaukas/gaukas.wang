@@ -15,6 +15,8 @@ Wang joined CU Boulder for his Ph.D. to continue his research career in the fiel
 
 This site is owned by Gaukas Wang and is currently hosted on GitHub Pages. Built with [Hexo](https://hexo.io), this site uses GitHub Actions to automate the process of generating websites from **Markdown** drafts and deploying the generated webpages to GitHub Pages. 
 
+You can check out the source code of this site on [GitHub](https://github.com/gaukas/gaukas.wang).
+
 ## Contact 
 
 ### Email
@@ -23,4 +25,6 @@ Industrial/Commercial: [i@gaukas.wang](mailto:i@gaukas.wang)
 Academic: [Gaukas.Wang@colorado.edu](mailto:Gaukas.Wang@colorado.edu)
 
 ### Telegram
+Unless otherwise specified, all my Telegram accounts are for personal use only. 
+
 [@GaukasWang](https://t.me/GaukasWang)
