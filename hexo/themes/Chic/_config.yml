@@ -1,5 +1,5 @@
 # Header
-navname: Gaukas's Portfolio
+navname: Gaukas Wang
 
 # navigatior items
 nav:
@@ -17,7 +17,7 @@ favicon: /favicon.ico
 nickname: Gaukas Wang
 
 ### this variable is MarkDown form.
-description: "*Uncensored Internet Access is a basic human right.* <br> And with only circumventions you will **never** be granted the **real** freedom."
+description: ""Across the Great Wall we can reach every corner in the world." (1987)"
 avatar: /images/avatar.jpg
 
 # main menu navigation

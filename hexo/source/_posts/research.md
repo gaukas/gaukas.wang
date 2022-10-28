@@ -15,5 +15,5 @@ Network, especially the Internet, is taking a more and more important role in ou
 
 For people living in the modern society, the Internet is a necessity. One day without Internet is like a day without sunshine.
 
-## Onlie Privacy
+## Online Privacy
 Privacy violation is a serious problem in the modern society, especially on the Internet. It is a problem that affects everyone. My research focuses on the privacy of Internet users in order to protect the independence and security of the Internet.
