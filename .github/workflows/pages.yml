@@ -3,7 +3,7 @@ name: Update Github Pages branch
 on:
   push:
     tags:
-      - v1.*
+      - v*
 
 jobs:
   pages:
@@ -23,6 +23,8 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies and generate Hexo Site
         run: cd ./hexo && npm install && npm run build
+      - name: Make folder for CV/Resume
+        run: mkdir -p ./hexo/public/documents/
       - name: Build LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
