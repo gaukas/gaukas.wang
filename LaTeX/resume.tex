@@ -390,7 +390,9 @@
   ([yshift=-80pt,xshift=-6cm]current page.south|-current page text area.south) --
   ([xshift=-2.5cm,yshift=-10pt]current page.south|-current page text area.south) --	
   ([yshift=-10pt]current page.south east|-current page text area.south east) -- cycle;
-\node[yshift=0.32cm,xshift=9cm] at (current page.south) {\fontsize{10}{10}\selectfont \textbf{\thepage}};
+\node[yshift=0.32cm,xshift=3.5cm] at (current page.south) {\fontsize{10}{10}\selectfont Generated on \today. Check out the latest copy at \href{https://gauk.as/resume}{gauk.as/resume}. 
+%\textbf{\thepage}
+};
 \end{tikzpicture}%
 }
 
@@ -445,42 +447,30 @@
 
 \cvsection{Skills}
 
-\cvskill{Linux} {5+ yrs.} {1} \\[-2pt]
+\cvskill{Linux DevOps} {5+ yrs.} {1} \\[-2pt]
 
-\cvskill{C++ (Programming)} {4 yrs.} {0.8} \\[-2pt]
+\cvskill{Go (Programming)} {4 yrs.} {0.8} \\[-2pt]
 
-\cvskill{Python (Programming)} {3 yrs.} {0.6} \\[-2pt]
+\cvskill{Rust (Programming)} {3 yrs.} {0.6} \\[-2pt]
 
-\cvskill{Go (Programming)} {3 yrs.} {0.6} \\[-2pt]
-
-\cvskill{Rust (Programming)} {2 yrs.} {0.4} \\[-2pt]
-
-\cvskill{Cybersecurity} {2 yrs.} {0.4} \\[-2pt]
+\cvskill{Cybersecurity} {3 yrs.} {0.6} \\[-2pt]
 
 %---------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
-\cvsection{Education}
+\cvsection{Alma mater}
 
 \cvmetaevent
-{Aug 2022 - May 2027}
-{Electrical Engineering (Ph.D.)}
 {University of Colorado, Boulder}
-{\textit{Computer Engineering subplan}}
-
-\cvmetaevent
-{Aug 2018 - May 2021}
-{Electrical and Computer Engineering (B.Sc.)}
-{University of Colorado, Boulder}
-{\textit{Computer Engineering Focus}}
+{2018 - 2021, 2022-2027}
+{Elec. \& Comp. Engr (B.Sc.) \\ Computer Engineering (Ph.D.)}
 
 \cvsection{Contact}
 
 % \icontext{MapMarker}{16}{Street name XX\\D-XXXXX Lorem}{black}\\[6pt]
 \iconemail{Envelope}{16}{i@gaukas.wang}{i@gaukas.wang}{black}\\[6pt]
-\iconhref{Github}{16}{github.com/Gaukas}{https://www.github.com/Gaukas}{black}\\[6pt]
+\iconhref{Github}{16}{github.com/gaukas}{https://www.github.com/gaukas}{black}\\[6pt]
 \iconhref{Linkedin}{16}{linkedin.com/in/gaukaswang}{https://www.linkedin.com/in/gaukaswang/}{black}\\
-
 	
 %\cvqrcode{0.3}
 
@@ -498,11 +488,10 @@
 \vspace{4pt}
 
 \cvtext{Gaukas Wang is an experienced computer engineer and a researcher in the field of 
-Censorship Circumvention, Network, and Online Privacy. He has gained experiences and made independent contributions 
-as a teaching assistant, research assistant, as well as a student researcher during his study 
-at the University of Colorado Boulder. He is currently a Ph.D. student at the University of Colorado Boulder.
-}
-
+Censorship Circumvention, Network, and Online Privacy. He has made contributions towards 
+in his fields of research during his undergraduate study at the University of Colorado 
+Boulder. Currently, Wang is a Ph.D. student at the University of Colorado Boulder advised
+by Professor Eric Wustrow.}
 
 %---------------------------------------------
 %    Research Interests
@@ -513,8 +502,9 @@ at the University of Colorado Boulder. He is currently a Ph.D. student at the Un
 \vspace{4pt}
 
 \begin{itemize}[leftmargin=*]
-\item Acuerdo: Fast Atomic Broadcast over RDMA (Accepted ICPP'2022)
-\item MRTOM: Mostly Reliable Totally Ordered Multicast (Submitted INFOCOM'2023)
+	\item Chasing Shadows: A security analysis of the ShadowTLS proxy (\textit{submitted})
+	\item MRTOM: Mostly Reliable Totally Ordered Multicast (\textit{submitted})
+	\item Acuerdo: Fast Atomic Broadcast over RDMA (ICPP'2022)
 \end{itemize}
 
 %---------------------------------------------------------------------------------------
@@ -522,35 +512,35 @@ at the University of Colorado Boulder. He is currently a Ph.D. student at the Un
 %----------------------------------------------------------------------------------------
 
 \vspace{10pt}
-\cvsection{Work experience}
+\cvsection{Working Experience}
 \vspace{4pt}
 
 \cvevent
 {08/2022 - Present}
 	{Researcher}
 	{University of Colorado, Boulder}
-	{Exploring and exploiting censorships with Prof. Eric Wustrow.}
+	{Explore and exploit censorship mechanisms with Prof. Eric Wustrow.}
 	\vfill\null
 
 \cvevent
 {08/2021 - 06/2022}
 	{Software Engineer}
 	{Intelepeer Cloud Communications LLC}
-	{Building and maintaining a software system which provides users interfaces to access a Communication-Platform-as-a-Service (cpaas) infrastructure. }
+	{Built and maintained a software system which provides users interfaces to access a Communication-Platform-as-a-Service (cpaas) infrastructure. }
 	\vfill\null
 	
 \cvevent
 {01/2021 - 04/2022}
 	{Researcher}
 	{University of Colorado, Boulder}
-	{Building Conjure, a robust circumvention system with Prof. Eric Wustrow.}
+	{Worked on Conjure, a novel censorship circumvention system. \\Supervisor: Prof. Eric Wustrow}
 	\vfill\null
 
 \cvevent
 {04/2020 - 04/2021}
 	{Research Assistant}
 	{University of Colorado, Boulder}
-	{Building an atomic RDMA broadcasting design called Acuerdo with Prof. Joseph Izraelevitz.}
+	{Worked on Acuerdo, an atomic RDMA broadcasting design. \\Supervisor: Prof. Joseph Izraelevitz}
 	\vfill\null
 
 % \cvevent
@@ -564,12 +554,6 @@ at the University of Colorado Boulder. He is currently a Ph.D. student at the Un
 \vfill
 \mbox{}
 \vfill
-
-\huge{$\mathbf{X}$}\normalsize\hrulefill
-
-$\mathbf{Gaukas Wang}$'s \textit{signature attestation is recommended for hardcopies.}
-
-Automatically generated on \today
 
 \end{rightcolumn}
 \end{paracol}
