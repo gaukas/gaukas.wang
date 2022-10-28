@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Gaukas Wang">
+
+
+    <meta name="subtitle" content=""Across the Great Wall we can reach every corner in the world." (1987)">
+
+
+    <meta name="description" content="Gaukas Wang is a researcher in Censorship/Network/Privacy/Security. And this site serves as his portfolio.">
+
+
+
+<title>Selected Projects | Gaukas Wang</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Gaukas Wang</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">Home</a>
+                
+                    <a class="menu-item" href="/research/">Research</a>
+                
+                    <a class="menu-item" href="/projects/">Projects</a>
+                
+                    <a class="menu-item" href="/publications/">Publications</a>
+                
+                    <a class="menu-item" href="/about/">About</a>
+                
+                    <a class="menu-item" target="_blank" rel="noopener" href="https://dochive.gaukas.wang">DocHive</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Gaukas Wang</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/">Home</a>
+                
+                    <a class="menu-item" href="/research/">Research</a>
+                
+                    <a class="menu-item" href="/projects/">Projects</a>
+                
+                    <a class="menu-item" href="/publications/">Publications</a>
+                
+                    <a class="menu-item" href="/about/">About</a>
+                
+                    <a class="menu-item" target="_blank" rel="noopener" href="https://dochive.gaukas.wang">DocHive</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Selected Projects</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p>This page lists some of my academic&#x2F;personal projects that I am actively working on, have worked on, will be working on, and have completed. </p>
+<h2 id="Go"><a href="#Go" class="headerlink" title="Go"></a>Go</h2><h3 id="uTLS"><a href="#uTLS" class="headerlink" title="uTLS"></a><a target="_blank" rel="noopener" href="https://github.com/refraction-networking/utls">uTLS</a></h3><p>Fork of the Go standard TLS library, providing low-level access to the ClientHello for mimicry purposes.</p>
+<h3 id="seed2sdp"><a href="#seed2sdp" class="headerlink" title="seed2sdp"></a><a target="_blank" rel="noopener" href="https://github.com/Gaukas/seed2sdp">seed2sdp</a></h3><p>An attempt on simplifying the Session Description Protocol (SDP) message generated by <a target="_blank" rel="noopener" href="https://webrtc.org/">WebRTC</a>, in order to minimize the data that needs to be exchanged between peers that are establishing WebRTC PeerConnections&#x2F;DataChannels. </p>
+<p><strong>seed2sdp</strong> enables a seed-string based WebRTC connection establishment. Eliminating the bidirectional signalling process which was once required.</p>
+<h3 id="transportc"><a href="#transportc" class="headerlink" title="transportc"></a><a target="_blank" rel="noopener" href="https://github.com/Gaukas/transportc">transportc</a></h3><p>A pluggable transport implemented with WebRTC data channels. </p>
+<p><strong>transportc</strong> creates <code>WebRTConn</code> structs which interfaces <code>net.Conn</code> to provide better programmability for easier integration of WebRTC DataChannels. </p>
+<h3 id="webauthn"><a href="#webauthn" class="headerlink" title="webauthn"></a><a target="_blank" rel="noopener" href="https://github.com/Gaukas/webauthn">webauthn</a></h3><p>A fork of WebAuthn (FIDO2) server library from <a target="_blank" rel="noopener" href="https://github.com/duo-labs/webauthn">duo-labs&#x2F;webauthn</a> with improved programmability.</p>
+<h2 id="Rust"><a href="#Rust" class="headerlink" title="Rust"></a>Rust</h2><p>(to be added)</p>
+<h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><h3 id="psrecord-io"><a href="#psrecord-io" class="headerlink" title="psrecord_io"></a><a target="_blank" rel="noopener" href="https://github.com/Gaukas/psrecord_io">psrecord_io</a></h3><p>A fork of <a target="_blank" rel="noopener" href="https://github.com/astrofrog/psrecord">astrofrog&#x2F;psrecord</a> with I&#x2F;O stats added. </p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://gaukas.wang/projects/">https://gaukas.wang/projects/</a></span>
+                    </p>
+                
+                
+                
+
+            </section>
+        
+        <!-- <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section> -->
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/about/">About</a>
+            
+            
+            <a class="next" rel="next" href="/publications/">Publications</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>Copyright © Gaukas Wang under <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
