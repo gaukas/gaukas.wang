@@ -17,7 +17,7 @@ favicon: /favicon.ico
 nickname: Gaukas Wang
 
 ### this variable is MarkDown form.
-description: ""Across the Great Wall we can reach every corner in the world." (1987)"
+description: '"Across the Great Wall we can reach every corner in the world." (1987)'
 avatar: /images/avatar.jpg
 
 # main menu navigation
