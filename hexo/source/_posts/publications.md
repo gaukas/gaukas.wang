@@ -13,7 +13,7 @@ Gaukas Wang, Anonymous, Jackson Sippe, Hai Chi, Eric Wustrow
 
 ShadowTLS is a new type of circumvention tool where the relay forwards traffic to a legitimate (unblocked) TLS server until the end of the handshake, and then connects the client to a hidden proxy server (e.g. Shadowsocks). In contrast to previous probe-resistant proxies, this design can evade SNI sniffing, since to the censor it appears as a legitimate TLS connection to an unblocked domain.
 
-In this paper, we describe several attacks against ShadowTLS which would allow a censor to identify if a suspected IP is hosting a ShadowTLS relay or not (and block it accordingly), distinguishing it from the legitimate TLS servers they mimic. Our attacks require only a few TCP connections to the suspected IP, a capability that censors including China have already demonstrated in order to block previous proxies.
+In this paper, we describe several attacks against ShadowTLS which would allow a censor to identify if a suspected IP is hosting a ShadowTLS relay or not (and block it accordingly), distinguishing it from the legitimate TLS servers it mimics. Our attacks require only a few TCP connections to the suspected IP, a capability that censors including China have already demonstrated in order to block previous proxies.
 
 We evaluate these vulnerabilities by performing Internet-wide scans to discover potential ShadowTLS proxies, and find over 15K of them. We also describe mitigations against this attack that ShadowTLS (and proxies like it) can implement, and work with the ShadowTLS developers to deploy these fixes.
 
