@@ -3,7 +3,7 @@ title: Publications
 ---
 ## 2023
 
-### [Chasing Shadows: A security analysis of the ShadowTLS proxy](https://gaukas.wang/paper/chasing_shadows-foci23.pdf)
+### [Chasing Shadows: A security analysis of the ShadowTLS proxy](https://gaukas.wang/paper/foci23-wang.pdf)
 
 #### Author(s)
 
@@ -19,7 +19,7 @@ We evaluate these vulnerabilities by performing Internet-wide scans to discover 
 
 ## 2022
 
-### [Acuerdo: Fast Atomic Broadcast over RDMA](https://gaukas.wang/paper/acuerdo-icpp22.pdf)
+### [Acuerdo: Fast Atomic Broadcast over RDMA](https://gaukas.wang/paper/icpp22-izraelevitz.pdf)
 
 #### Author(s)
 
