@@ -30,7 +30,6 @@ jobs:
         with:
           root_file: |
             cv.tex
-            resume.tex
           working_directory: ./LaTeX
           post_compile: "cp *.pdf ../hexo/public/documents/"
       - name: Deploy
