@@ -17,24 +17,11 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\input{glyphtounicode}
 % \usepackage{draftwatermark}
 % \SetWatermarkLightness{ 0.95 }
 % \SetWatermarkText{Gaukas.Wang \\ \today}
 % \SetWatermarkScale{3}
-\input{glyphtounicode}
-
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -134,18 +121,18 @@
 
 \vspace{1pt}
 
-%-----------Areas of Interest-----------
-\section{Areas of Interest}
+%-----------Research Area-----------
+\section{Research Area}
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{\textbf{Anti-Censorship}: Censorship Circumvention, Measurements, and Techniques}{}
+{\textbf{Anti-Censorship}: Censorship Analysis, Circumvention, Measurements}{}
 
 \resumeProjectHeading
 {\textbf{Privacy}: Application Fingerprint, Traceability, Privacy Leakage/Protection}{}
 
 \resumeProjectHeading
-{\textbf{Network}: Network Analysis/Measurements, Network Traffic Modeling/Classification}{}
+{\textbf{Network}: Network Analysis, Measurements, Traffic Modeling/Classification}{}
 
 \resumeSubHeadingListEnd
 \vspace{1pt}
@@ -155,12 +142,12 @@
 \resumeSubHeadingListStart
   % STLS
   \resumeSubheading
-  {\href{https://www.petsymposium.org/foci/2023/foci-2023-0002.php}{\textbf{Chasing Shadows: A security analysis of the ShadowTLS proxy}}}{}
-  {Go/Rust $|$ Censorship/Network Measurements, Code Analysis, Transport Layer Security(TLS)}{FOCI'2023}
+  {\href{https://www.petsymposium.org/foci/2023/foci-2023-0002.php}{\textbf{Chasing Shadows: A security analysis of the ShadowTLS proxy}}}{Feb 2023}
+  {FOCI'2023}{Censorship, Computer Network}
   % Acuerdo
   \resumeSubheading
-  {\href{https://dl.acm.org/doi/abs/10.1145/3545008.3545041}{\textbf{Acuerdo: Fast Atomic Broadcast over RDMA}}}{}
-  {C++ $|$ Concurrent Programming, Remote Direct Memory Access(RDMA)}{ICPP'2022}
+  {\href{https://dl.acm.org/doi/abs/10.1145/3545008.3545041}{\textbf{Acuerdo: Fast Atomic Broadcast over RDMA}}}{Aug 2022}
+  {ICPP'2022}{Atomic Broadcast, RDMA, Consensus}
 \resumeSubHeadingListEnd
 \vspace{1pt}
 
@@ -168,17 +155,17 @@
 \section{Other Selected Contributions}
 \resumeSubHeadingListStart
 \resumeSubheading
-{\href{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36539}{\textbf{CVE-2021-36539}}}{}
-{Threat: Medium $|$ Unbound File Access vulnerabilities in \href{https://www.instructure.com/canvas}{Canvas LMS} by \emph{Instructure, Inc.}}{}
+{\href{https://github.com/refraction-networking/utls}{\textbf{uTLS}} \& \href{https://github.com/refraction-networking/tls-fingerprint}{\textbf{TLSFingerprint.io}}}{Ongoing}
+{Low-level access TLS fingerprint mimicry library \& TLS fingerprint statistics/analyzer in Go}{}
 \resumeSubheading
-{\href{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681}{\textbf{CVE-2021-28681}}}{}
-{Threat: Medium $|$ DTLS Man-in-the-Middle(MITM) vulnerabilities in \href{https://github.com/pion/webrtc}{pion/webrtc} by \emph{Pion}}{}
+{\href{https://github.com/gaukas/transportc}{\textbf{transportc}} \& \href{https://github.com/gaukas/rtcsocks}{\textbf{RTCSocks}}}{Ongoing}
+{Pluggable WebRTC DataChannel transport \& SOCKS5 Proxy Tool in Go}{}
 \resumeSubheading
-{\href{https://github.com/refraction-networking/utls}{\textbf{uTLS}} \& \href{https://github.com/refraction-networking/tls-fingerprint}{\textbf{TLSFingerprint.io}}}{}
-{Go/Python $|$ Low-level access TLS fingerprint mimicry library \& TLS fingerprint statistics/analyzer}{}
+{\href{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36539}{\textbf{CVE-2021-36539}}}{2021}
+{Unbound File Access vulnerabilities in \href{https://www.instructure.com/canvas}{Canvas LMS} by \emph{Instructure, Inc.}}{}
 \resumeSubheading
-{\href{https://github.com/gaukas/transportc}{\textbf{transportc}} \& \href{https://github.com/gaukas/rtcsocks}{\textbf{RTCSocks}}}{}
-{Go $|$ Pluggable WebRTC DataChannel transport \& SOCKS5 Proxy Tool using it}{}
+{\href{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681}{\textbf{CVE-2021-28681}}}{2021}
+{DTLS Man-in-the-Middle(MITM) vulnerabilities in \href{https://github.com/pion/webrtc}{pion/webrtc} by \emph{Pion}}{}
 \resumeSubHeadingListEnd
 \vspace{1pt}
 
@@ -186,26 +173,26 @@
 \section{Working Experience}
 \resumeSubHeadingListStart
 \resumeSubheading
-{Graduate Researcher}{University of Colorado, Boulder}
-{Censorship, Cybersecurity, Network}{Aug 2022 - Present}
+{Graduate Student Researcher}{Aug 2022 - Present}
+{University of Colorado Boulder}{Go/Rust $|$ Censorship, Cybersecurity, Information Privacy, Network}
 \resumeSubheading
-{Fullstack Software Engineer}{Intelepeer Cloud Communications LLC}
-{C++/Python, Frontend Web Development, Data Batch Processing, MySQL}{Aug 2021 - June 2022}
+{Fullstack Software Engineer}{Aug 2021 - June 2022}
+{Intelepeer Cloud Communications LLC}{C++/Python $|$ Fullstack Development, MySQL, REST API}
 \resumeSubheading
-{Undergraduate Research Assistant/Researcher}{University of Colorado, Boulder}
-{Network, Remote Direct Memory Access(RDMA), Memory Coherency}{Apr 2020 - Apr 2022}
+{Undergraduate Research Assistant/Researcher}{Apr 2020 - Apr 2022}
+{University of Colorado Boulder}{C++/Go $|$ Distributed Systems, Network, RDMA}
 \resumeSubHeadingListEnd
 \vspace{1pt}
 
 \section{Teaching Experience}
 \resumeSubHeadingListStart
 \resumeSubheading
-{Teaching Assistant}{University of Colorado, Boulder}
-{\href{https://experts.colorado.edu/display/coursename_ECEN-4313}{ECEN-CSCI 4313-5313-7000: Concurrent Programming}}{Fall'20, Fall'22}
-\resumeSubheading
-{Undergraduate Teaching Assistant}{University of Colorado, Boulder}
-{\href{https://experts.colorado.edu/display/coursename_ECEN-1310}{ECEN 1310: C Programming for ECE}}{Spring'20, Spring'21}
-\resumeSubHeadingListEnd
+{Teaching Assistant}{}
+{University of Colorado, Boulder}{}
+\resumeSubSubheading
+{\href{https://experts.colorado.edu/display/coursename_ECEN-4313}{\textbf{ECEN-CSCI 4313-5313-7000}: Concurrent Programming}}{Fall'20, Fall'22}
+\resumeSubSubheading
+{\href{https://experts.colorado.edu/display/coursename_ECEN-1310}{\textbf{ECEN 1310}: C Programming for ECE}}{Spring'20, Spring'21}\resumeSubHeadingListEnd
 \vspace{1pt}
 % -------------------------------------------
 \end{document}

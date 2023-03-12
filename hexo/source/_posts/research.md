@@ -1,5 +1,6 @@
 ---
 title: My research
+description: A list of my research interests.
 ---
 My research interests span multiple areas, including Censorship Circumvention, Cybersecurity, Network, Privacy. 
 

@@ -1,5 +1,6 @@
 ---
 title: About
+description: Information about this site and about the site owner Gaukas Wang.
 ---
 ## About the site
 
@@ -20,11 +21,11 @@ Wang joined CU Boulder for his Ph.D. to continue his research career in the fiel
 ## Contact 
 
 ### Email
-Industrial/Commercial: [i@gaukas.wang](mailto:i@gaukas.wang)
+Industry Contact: [i@gaukas.wang](mailto:i@gaukas.wang)
 
-Academic: [Gaukas.Wang@colorado.edu](mailto:Gaukas.Wang@colorado.edu)
+Academia Contact: [Gaukas.Wang@colorado.edu](mailto:Gaukas.Wang@colorado.edu)
 
 ### Telegram
-By default, I do not accept any random Telegram contact request. If you want to contact me, please send me an email first. 
+By default, I do not accept random Telegram contact requests. If you want to contact me, please shoot me an email first. 
 
-In case of emergencies, you may contact me via [@Gaukas](https://t.me/Gaukas).
+However, in case of emergencies, you may contact me via [@gaukas](https://t.me/gaukas).

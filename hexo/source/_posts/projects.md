@@ -1,5 +1,6 @@
 ---
 title: Selected Projects
+description: A list of selected projects that I am actively working on, have worked on, will be working on, and have completed.
 ---
 This page lists some of my academic/personal projects that I am actively working on, have worked on, will be working on, and have completed. 
 
@@ -20,6 +21,9 @@ A pluggable transport implemented with WebRTC data channels.
 
 ### [webauthn](https://github.com/Gaukas/webauthn)
 A fork of WebAuthn (FIDO2) server library from [duo-labs/webauthn](https://github.com/duo-labs/webauthn) with improved programmability.
+
+### [passthru](https://github.com/gaukas/passthru)
+(De-)multiplexing TCP connections based on DPI-based Application Data sniffing.
 
 ## Rust
 
