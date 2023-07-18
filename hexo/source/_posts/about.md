@@ -4,19 +4,19 @@ description: Information about this site and about the site owner Gaukas Wang.
 ---
 ## About the site
 
-This site is owned and maintained by Gaukas Wang. It is currently hosted on GitHub Pages and use GitHub Actions to automate the process of webpage generation provided by [Hexo](https://hexo.io). 
+This site is owned and maintained by Gaukas Wang. It is hosted by GitHub Pages and use GitHub Actions to automate the process of webpage generation and deployment with [Hexo](https://hexo.io). 
 
 The site is fully open-source under GNU GPL v3 License. You may check out the repository of this site on [GitHub](https://github.com/gaukas/gaukas.wang).
 
 ## Biography
 
-Gaukas Wangis an experienced Computer Engineer in the field of Censorship Circumvention, Network, Privacy, and Security. 
+Gaukas Wang is an experienced Computer Engineer in the field of Network, Privacy, and Cybersecurity with a focus on Censorship Circumvention. He is currently a Ph.D. student at the University of Colorado Boulder under the supervision of Prof. Eric Wustrow.
 
-Wang moved to the US in 2018. During his undergraduate study, he worked as a teaching assistant, research assistant, as well as a student researcher in the Computer Systems Lab @ University of Colorado Boulder and made independent contribution to multiple research projects he worked on. 
+Wang moved to the US in 2018. During his undergraduate study, he worked as a teaching assistant, research assistant, as well as a student researcher in the Computer Systems Lab @ University of Colorado Boulder and has made independent contribution to multiple research projects.
 
-After Wang graduated with a B.Sc. degree in Electrical and Computer Engineering, he had been working as a Software Engineer for one of the top telecommunication companies in the US. In addition to the full-time employment in the industry, Wang held a concurrent appointment at his university as a Temporary Researcher as well. The researcher position allowed him to continue his research. 
+After Wang graduated with a B.Sc. degree in Electrical and Computer Engineering, he had been working as a Software Engineer for one of the top telecommunication companies in the US. In addition to the full-time employment in the industry, Wang held a concurrent appointment at CU Boulder as a Temporary Researcher for one of his long-term research projects. 
 
-Wang joined CU Boulder for his Ph.D. to continue his research career in the field of Network, Security, Privacy, and Censorship in August 2022. 
+Wang rejoined CU Boulder to continue his research as a Ph.D. student in the discipline of Network, Privacy, and Cybersecurity starting from Fall 2022.
 
 ## Contact 
 
