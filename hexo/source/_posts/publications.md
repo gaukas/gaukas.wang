@@ -8,8 +8,7 @@ description: A list of publications that I have authored or co-authored.
 
 ## 2023
 
-### MRTOM: Mostly Reliable Totally Ordered Multicast, a Network Primitive to Offload Distributed Systems
-
+### [MRTOM: Mostly Reliable Totally Ordered Multicast, a Network Primitive to Offload Distributed Systems](https://ieeexplore.ieee.org/document/10272412)
 Zhang Liu, Dirk Grunwald, Joseph Izraelevitz, Gaukas Wang, and Sangtae Ha \
 To appear in the Proceedings of the 43rd IEEE International Conference on Distributed Computing Systems (ICDCS 2023), July 2023
 

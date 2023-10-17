@@ -23,6 +23,9 @@
 % \SetWatermarkText{Gaukas.Wang \\ \today}
 % \SetWatermarkScale{3}
 
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
@@ -48,11 +51,16 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-4pt}%\scshape
+  \raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
+
+% Set the default font to Latin Modern Sans
+\renewcommand{\rmdefault}{lmss}
+\renewcommand{\sfdefault}{lmss}
 
 %-------------------------
 % Custom commands
@@ -100,7 +108,7 @@
 \begin{document}
 
 \begin{center}
-  \href{https://gaukas.wang}{\textbf{\Huge \scshape Gaukas Wang}} \\ \vspace{1pt}
+  \href{https://gaukas.wang}{\textbf{\Huge Gaukas Wang}} \\ \vspace{1pt}
     E-mail: \href{mailto:i@gaukas.wang}{{i@gaukas.wang}} $|$ 
     GitHub: \href{https://github.com/gaukas}{{github.com/gaukas}} $|$ 
     Portfolio: \href{https://gauk.as}{gauk.as}
@@ -124,19 +132,10 @@
 %-----------Research Area-----------
 \section{Research Area/Interest}
 \resumeSubHeadingListStart
-
-\resumeProjectHeading
-{\textbf{Anti-Censorship}: Censorship Measurement, Analysis, Evasion/Circumvention}{}
-
-\resumeProjectHeading
-{\textbf{Computer Network}: Network Measurement, Optimization, Security}{}
-
-\resumeProjectHeading
-{\textbf{Privacy}: App Fingerprint, Online Privacy Violation}{}
-
-\resumeProjectHeading
-{\textbf{Cybersecurity}: Application Security, Cryptography, Malware Analysis}{}
-
+  \resumeProjectHeading {\textbf{Anti-Censorship}: Censorship Measurement, Analysis, Circumvention/Evasion}{}
+  \resumeProjectHeading {\textbf{Computer Network}: Network Measurement, Optimization, Security}{}
+  \resumeProjectHeading {\textbf{Privacy}: Application/User Fingerprint, Online Privacy Violation}{}
+  \resumeProjectHeading {\textbf{Cybersecurity}: Application Security, Cryptography, Malware Analysis}{}
 \resumeSubHeadingListEnd
 \vspace{1pt}
 
@@ -145,15 +144,15 @@
 \resumeSubHeadingListStart
   % MRTOM
   \resumeSubheading
-  {\textbf{{MRTOM}: Mostly Reliable Totally Ordered Multicast}}{\href{https://icdcs2023.icdcs.org/}{ICDCS'2023}}
+  {\href{https://ieeexplore.ieee.org/document/10272412}{\textbf{{MRTOM}: Mostly Reliable Totally Ordered Multicast}}}{\href{https://icdcs2023.icdcs.org/}{ICDCS 2023}}
   {Z Liu, D Grunwald, J Izraelevitz, G Wang, S Ha}{}
   % ShadowTLS
   \resumeSubheading
-  {\href{https://www.petsymposium.org/foci/2023/foci-2023-0002.php}{\textbf{{Chasing Shadows}: A security analysis of the {ShadowTLS} proxy}}}{\href{https://foci.community/foci23.html}{FOCI'2023}}
+  {\href{https://www.petsymposium.org/foci/2023/foci-2023-0002.php}{\textbf{{Chasing Shadows}: A security analysis of the {ShadowTLS} proxy}}}{\href{https://foci.community/foci23.html}{FOCI 2023}}
   {G Wang, Anonymous, J Sippe, H Chi, E Wustrow}{}
   % Acuerdo
   \resumeSubheading
-  {\href{https://dl.acm.org/doi/abs/10.1145/3545008.3545041}{\textbf{Acuerdo: Fast Atomic Broadcast over {RDMA}}}}{\href{https://icpp22.gitlabpages.inria.fr/}{ICPP'2022}}
+  {\href{https://dl.acm.org/doi/abs/10.1145/3545008.3545041}{\textbf{Acuerdo: Fast Atomic Broadcast over {RDMA}}}}{\href{https://icpp22.gitlabpages.inria.fr/}{ICPP 2022}}
   {J Izraelevitz, G Wang, R Hanscom, K Silvers, TS Lehman, G Chockler, A Gotsman}{}
 \resumeSubHeadingListEnd
 \vspace{1pt}
@@ -162,11 +161,11 @@
 \resumeSubHeadingListStart
   % QUIC FP
   \resumeSubheading
-  {\textbf{Fingerprinting QUIC Client Connections}}{Submitted}
+  {\textbf{Fingerprinting QUIC Clients/Connections}}{}
   {Investigating potential vulnerabilities on QUIC Client being identified with Deep Packet Inspection}{}
   % WATER
   \resumeSubheading
-  {\textbf{Building Censorship-Resistant Pluggable Transport w/ {WebAssembly}}}{}
+  {\textbf{Building Censorship-Resistant Pluggable Transport with {WebAssembly}}}{}
   {Designing a novel network transport with good flexibility/pluggability using WebAssembly}{}
   % TLS over TLS
   \resumeSubheading
@@ -176,35 +175,38 @@
 \vspace{1pt}
 
 %----------- Contributions -----------
-\section{Selected Projects/Other Contributions}
+\section{Selected Projects}
 \resumeSubHeadingListStart
 \resumeSubheading
-{\href{https://github.com/gaukas/water}{\textbf{W.A.T.E.R.: WebAssembly Transport Executable Runtime}}}{}
-{Next-generation engine for WebAssembly-based network transport protocols}{}
+{\href{https://github.com/gaukas/water}{\textbf{W.A.T.E.R.: WebAssembly Transport Executable Runtime}}}{2023-}
+{Next-generation engine for WebAssembly-based network transport protocols}{Open Source}
 \resumeSubheading
-{\href{https://github.com/refraction-networking/utls}{\textbf{uTLS}}}{}
-{Low-level access TLS ClientHello mimicry library in Go, allowing low-level access to TLS Handshake}{}
+{\textbf{TLS/QUIC Fingerprinting}}{2021-}
+{Fingerprinting TLS and QUIC connections with Deep Packet Inspection (DPI)}{Open Source}
+\resumeItemListStart
+  \resumeItem{\href{https://github.com/gaukas/clienthellod}{\textbf{clienthellod}}}
+    {A TLS ClientHello and QUIC Initial Packet parser for fingerprinting purposes}
+  \resumeItem{\href{https://github.com/refraction-networking/utls}{\textbf{uTLS}}}
+    {Low-level access TLS ClientHello mimicry library allowing low-level access to TLS Handshake}
+  \resumeItem{\href{https://github.com/refraction-networking/uquic}{\textbf{uQUIC}}}
+    {Low-level access QUIC Initial Packet mimicry library allowing low-level access to QUIC Handshake}
+  \resumeItem{\href{https://tlsfingerprint.io}{\textbf{TLSFingerprint.io}}}
+    {Online museum for collected TLS client fingerprints on a network tap at CU Boulder}
+  \resumeItem{\href{https://quic.tlsfingerprint.io}{\textbf{quic.TLSFingerprint.io}}}
+    {Online museum for collected QUIC client fingerprints on a network tap at CU Boulder}  
+\resumeItemListEnd
 \resumeSubheading
-{\href{https://github.com/refraction-networking/uquic}{\textbf{uQUIC}}}{}
-{Low-level access QUIC Initial Packet mimicry library in Go, allowing low-level access to QUIC Handshake}{}
+{\textbf{Helios}}{2021}
+{Cloud-native remote watchdog for server cluster status monitoring}{}
 \resumeSubheading
-{\href{https://github.com/gaukas/clienthellod}{\textbf{clienthellod}}}{}
-{A TLS ClientHello and QUIC Initial Packet parser for fingerprinting purposes}{}
-\resumeSubheading
-{\href{https://tlsfingerprint.io}{\textbf{TLSFingerprint.io}}/\href{https://quic.tlsfingerprint.io}{\textbf{QUIC.TLSFingerprint.io}}}{}
-{Online museum for observed TLS/QUIC client fingerprints}{}
-% \resumeSubheading
-% {\textbf{CVE-PENDING-ASSIGNMENT}}{}
-% {Memory Dump vulnerabilities in [REDACTED] by [REDACTED]}{}
-% \resumeSubheading
-% {\textbf{CVE-PENDING-ASSIGNMENT}}{}
-% {Arbitrary Code Execution vulnerabilities in [REDACTED] by [REDACTED]}{}
-\resumeSubheading
-{\href{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36539}{\textbf{CVE-2021-36539}}}{}
-{Unbound File Access vulnerabilities in \href{https://www.instructure.com/canvas}{Canvas LMS} by \emph{Instructure, Inc.}}{}
-\resumeSubheading
-{\href{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681}{\textbf{CVE-2021-28681}}}{}
-{DTLS Man-in-the-Middle(MITM) vulnerabilities in \href{https://github.com/pion/webrtc}{pion/webrtc} by \emph{Pion}}{}
+{\textbf{CVE (Common Vulnerabilities and Exposures)}}{}
+{Individual contributions to the CVE\textsuperscript{\textregistered} Program}{}
+\resumeItemListStart
+  \resumeItem{\href{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36539}{\textbf{CVE-2021-36539}}}
+    {Unbound File Access vulnerabilities in \href{https://www.instructure.com/canvas}{Canvas LMS} by \emph{Instructure, Inc.}}
+  \resumeItem{\href{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28681}{\textbf{CVE-2021-28681}}}
+    {DTLS Man-in-the-Middle(MITM) risks in \href{https://github.com/pion/webrtc}{pion/webrtc} by \emph{Pion}}
+\resumeItemListEnd
 \resumeSubHeadingListEnd
 \vspace{1pt}
 
