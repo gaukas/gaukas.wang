@@ -4,7 +4,7 @@ description: A list of publications that I have authored or co-authored.
 ---
 ## 2024
 
-### Just add *WATER*: WebAssembly-based Circumvention Transports
+### [Just add *WATER*: WebAssembly-based Circumvention Transports](https://arxiv.org/abs/2312.00163)
 Erik Chi, **Gaukas Wang**, J. Alex Halderman, Eric Wustrow, and Jack Wampler \
 Preprinted on *arXiv*
 
