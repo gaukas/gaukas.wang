@@ -4,7 +4,24 @@ description: A list of publications that I have authored or co-authored.
 ---
 ## 2024
 
-(to be updated)
+### Just add *WATER*: WebAssembly-based Circumvention Transports
+Erik Chi, **Gaukas Wang**, J. Alex Halderman, Eric Wustrow, and Jack Wampler \
+Preprinted on *arXiv*
+
+<details>
+  <summary>BibTeX</summary>
+    
+  ```bibtex
+  @misc{chi2023/2312.00163,
+    author={Chi, Erik and Wang, Gaukas and Halderman, J. Alex and Wustrow, Eric and Wampler, Jack},
+    title={Just add {WATER}: {WebAssembly}-based Circumvention Transports}, 
+    year={2023},
+    eprint={2312.00163},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR}
+  }
+  ```
+</details>
 
 ## 2023
 
