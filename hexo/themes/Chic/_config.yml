@@ -17,7 +17,7 @@ favicon: /favicon.ico
 nickname: Gaukas Wang
 
 ### this variable is MarkDown form.
-description: 'Across the Great Wall we can reach every corner in the world. '
+description: _Across the Great Wall we can reach every corner in the world._
 avatar: /images/avatar.jpg
 
 # main menu navigation
@@ -27,7 +27,7 @@ avatar: /images/avatar.jpg
 links:
   # Resume: /documents/resume.pdf
   CV: /documents/cv.pdf
-  Github: https://github.com/Gaukas
+  Github: https://github.com/gaukas
   LinkedIn: https://www.linkedin.com/in/gaukaswang/ 
   # Blog: /archives
   # Category:
@@ -104,5 +104,5 @@ scripts:
 mathjax:
   enable: false
   import: demand # global or demand
-  ## global: all pages will load mathjax,this will degrade performance and some grammers may be parsed wrong.
-  ## demand: Recommend option,if your post need fomula, you can declare 'mathjax: true' in Front-matter
+  ## global: all pages will load mathjax, this will degrade performance and some grammers may be parsed wrong.
+  ## demand: Recommend option, if your post need fomula, you can declare 'mathjax: true' in Front-matter
