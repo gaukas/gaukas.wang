@@ -4,21 +4,42 @@ description: A list of publications that I have authored or co-authored.
 ---
 ## 2024
 
-### [Just add WATER: WebAssembly-based Circumvention Transports](https://arxiv.org/abs/2312.00163)
-Erik Chi, **Gaukas Wang**, J. Alex Halderman, Eric Wustrow, and Jack Wampler \
-Preprinted on *arXiv*
+### Extended Abstract: `Oscur0`: One-shot Circumvention without registration
+Mingye Chen, Jack Wampler, Abdulrahman Alaraj, **Gaukas Wang**, and Eric Wustrow \
+In the Free and Open Communications on the Internet (FOCI 2024)
 
 <details>
   <summary>BibTeX</summary>
     
   ```bibtex
-  @misc{chi2023/2312.00163,
-    author={Chi, Erik and Wang, Gaukas and Halderman, J. Alex and Wustrow, Eric and Wampler, Jack},
-    title={Just add {WATER}: {WebAssembly}-based Circumvention Transports}, 
-    year={2023},
-    eprint={2312.00163},
-    archivePrefix={arXiv},
-    primaryClass={cs.CR}
+  @inproceedings{oscur0-foci24,
+    author = {Chen, Mingye and Wampler, Jack and Alaraj, Abdulrahman and Wang, Gaukas and Wustrow, Eric},
+    year = {2024},
+    month = {02},
+    title = {Extended Abstract: {Oscur0}: One-shot Circumvention without registration},
+    address = {Virtual Event},
+    series = {FOCI '24},
+    booktitle = {Free and Open Communications on the Internet},
+  }
+  ```
+</details>
+
+### [Just add WATER: WebAssembly-based Circumvention Transports](https://arxiv.org/abs/2312.00163)
+Erik Chi, **Gaukas Wang**, J. Alex Halderman, Eric Wustrow, and Jack Wampler \
+In the Free and Open Communications on the Internet (FOCI 2024)
+
+<details>
+  <summary>BibTeX</summary>
+    
+  ```bibtex
+  @inproceedings{water-foci24,
+    author = {Chi, Erik and Wang, Gaukas and Halderman, J. Alex and Wustrow, Eric and Wampler, Jack},
+    year = {2024},
+    month = {02},
+    title = {Just add {WATER}: {WebAssembly}-based Circumvention Transports},
+    address = {Virtual Event},
+    series = {FOCI '24},
+    booktitle = {Free and Open Communications on the Internet},
   }
   ```
 </details>
@@ -49,7 +70,7 @@ In the Proceedings of the 43rd IEEE International Conference on Distributed Comp
 
 ### [Chasing Shadows: A security analysis of the ShadowTLS proxy](https://www.petsymposium.org/foci/2023/foci-2023-0002.php)
 **Gaukas Wang**, Anonymous, Jackson Sippe, Hai Chi, and Eric Wustrow \
-In the Proceedings of the Free and Open Communications on the Internet (FOCI 2023)
+In the Free and Open Communications on the Internet (FOCI 2023)
 
 <details>
   <summary>BibTeX</summary>
