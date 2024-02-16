@@ -4,7 +4,7 @@ description: A list of publications that I have authored or co-authored.
 ---
 ## 2024
 
-### Extended Abstract: `Oscur0`: One-shot Circumvention without registration
+### [Extended Abstract: `Oscur0`: One-Shot Circumvention without Registration](https://www.petsymposium.org/foci/2024/foci-2024-0005.php)
 Mingye Chen, Jack Wampler, Abdulrahman Alaraj, **Gaukas Wang**, and Eric Wustrow \
 In the Free and Open Communications on the Internet (FOCI 2024)
 
@@ -16,7 +16,11 @@ In the Free and Open Communications on the Internet (FOCI 2024)
     author = {Chen, Mingye and Wampler, Jack and Alaraj, Abdulrahman and Wang, Gaukas and Wustrow, Eric},
     year = {2024},
     month = {02},
-    title = {Extended Abstract: {Oscur0}: One-shot Circumvention without registration},
+    number = {1},
+    pages = {32-34},
+    title = {Extended Abstract: {Oscur0}: One-shot Circumvention without Registration},
+    howpublished = "\url{https://www.petsymposium.org/foci/2024/foci-2024-0005.php}",
+    publisher = {PoPETs},
     address = {Virtual Event},
     series = {FOCI '24},
     booktitle = {Free and Open Communications on the Internet},
@@ -24,7 +28,7 @@ In the Free and Open Communications on the Internet (FOCI 2024)
   ```
 </details>
 
-### [Just add WATER: WebAssembly-based Circumvention Transports](https://arxiv.org/abs/2312.00163)
+### [Just add WATER: WebAssembly-based Circumvention Transports](https://www.petsymposium.org/foci/2024/foci-2024-0003.php)
 Erik Chi, **Gaukas Wang**, J. Alex Halderman, Eric Wustrow, and Jack Wampler \
 In the Free and Open Communications on the Internet (FOCI 2024)
 
@@ -36,7 +40,11 @@ In the Free and Open Communications on the Internet (FOCI 2024)
     author = {Chi, Erik and Wang, Gaukas and Halderman, J. Alex and Wustrow, Eric and Wampler, Jack},
     year = {2024},
     month = {02},
+    number = {1},
+    pages = {22-28},
     title = {Just add {WATER}: {WebAssembly}-based Circumvention Transports},
+    howpublished = "\url{https://www.petsymposium.org/foci/2024/foci-2024-0003.php}",
+    publisher = {PoPETs},
     address = {Virtual Event},
     series = {FOCI '24},
     booktitle = {Free and Open Communications on the Internet},
