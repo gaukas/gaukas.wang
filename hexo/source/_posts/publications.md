@@ -13,18 +13,13 @@ In the Free and Open Communications on the Internet (FOCI 2024)
     
   ```bibtex
   @inproceedings{oscur0-foci24,
-    author = {Chen, Mingye and Wampler, Jack and Alaraj, Abdulrahman and Wang, Gaukas and Wustrow, Eric},
-    year = {2024},
-    month = {02},
-    number = {1},
-    pages = {32-34},
+    author = {Mingye Chen and Jack Wampler and Abdulrahman Alaraj and Gaukas Wang and Eric Wustrow},
     title = {Extended Abstract: {Oscur0}: One-shot Circumvention without Registration},
-    howpublished = "\url{https://www.petsymposium.org/foci/2024/foci-2024-0005.php}",
-    publisher = {PoPETs},
-    address = {Virtual Event},
-    series = {FOCI '24},
     booktitle = {Free and Open Communications on the Internet},
-  }
+    publisher = {},
+    year = {2024},
+    url = {https://www.petsymposium.org/foci/2024/foci-2024-0005.pdf},
+}
   ```
 </details>
 
@@ -37,17 +32,12 @@ In the Free and Open Communications on the Internet (FOCI 2024)
     
   ```bibtex
   @inproceedings{water-foci24,
-    author = {Chi, Erik and Wang, Gaukas and Halderman, J. Alex and Wustrow, Eric and Wampler, Jack},
-    year = {2024},
-    month = {02},
-    number = {1},
-    pages = {22-28},
+    author = {Erik Chi and Gaukas Wang and J. Alex Halderman and Eric Wustrow and Jack Wampler},
     title = {Just add {WATER}: {WebAssembly}-based Circumvention Transports},
-    howpublished = "\url{https://www.petsymposium.org/foci/2024/foci-2024-0003.php}",
-    publisher = {PoPETs},
-    address = {Virtual Event},
-    series = {FOCI '24},
     booktitle = {Free and Open Communications on the Internet},
+    publisher = {},
+    year = {2024},
+    url = {https://www.petsymposium.org/foci/2024/foci-2024-0003.pdf},
   }
   ```
 </details>
@@ -84,18 +74,13 @@ In the Free and Open Communications on the Internet (FOCI 2023)
   <summary>BibTeX</summary>
 
   ```bibtex
-  @inproceedings{shadowtls-foci23,
-    author = {Wang, Gaukas and Anonymous and Sippe, Jackson and Chi, Hai and Wustrow, Eric},
-    year = {2023},
-    month = {02},
-    number = {1},
-    pages = {8-13},
-    title = {{Chasing Shadows}: A security analysis of the {ShadowTLS} proxy},
-    howpublished = "\url{https://www.petsymposium.org/foci/2023/foci-2023-0002.php}",
-    publisher = {PoPETs},
-    address = {Virtual Event},
-    series = {FOCI '23},
+  @inproceedings{Wang2023a,
+    author = {Gaukas Wang and Anonymous and Jackson Sippe and Hai Chi and Eric Wustrow},
+    title = {Chasing Shadows: A security analysis of the {ShadowTLS} proxy},
     booktitle = {Free and Open Communications on the Internet},
+    publisher = {},
+    year = {2023},
+    url = {https://www.petsymposium.org/foci/2023/foci-2023-0002.pdf},
   }
   ```
 </details>
