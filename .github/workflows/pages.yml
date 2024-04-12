@@ -2,8 +2,8 @@ name: Update Github Pages branch
 
 on:
   push:
-    tags:
-      - v*
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
@@ -27,10 +27,9 @@ jobs:
       - name: Make folder for CV/Resume
         run: mkdir -p ./hexo/public/documents/
       - name: Build LaTeX document
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v3
         with:
-          root_file: |
-            cv.tex
+          root_file: cv.tex
           working_directory: ./LaTeX
           post_compile: "cp *.pdf ../hexo/public/documents/"
       - name: Deploy
